@@ -1,23 +1,21 @@
-CREATE TABLE Personas (
+CREATE TABLE pyd_Personas (
     Numero_doc NUMBER NOT NULL,
     Tipo_documento VARCHAR2(10) NOT NULL,
     primer_nombre VARCHAR2(50) NOT NULL,
     segundo_nombre VARCHAR2(50),
     primer_apellido VARCHAR2(50) NOT NULL,
     segundo_apellido VARCHAR2(50),
-    correo_electronico VARCHAR2(100) NOT NULL UNIQUE,
+    correo_electronico VARCHAR2(100) NOT NULL UNIQUE
 );
 
-
-CREATE TABLE Cuartos (
+CREATE TABLE pyd_Cuartos (
     N_Cuarto NUMBER NOT NULL,
     Estado VARCHAR2(50) NOT NULL,
     Tipo_Cuarto VARCHAR2(50) NOT NULL,
     ocupante NUMBER
 );
 
-
-CREATE TABLE Areas (
+CREATE TABLE pyd_Areas (
     Area VARCHAR2(100) NOT NULL,
     especialidad VARCHAR2(100) NOT NULL,
     camas NUMBER NOT NULL,
@@ -25,8 +23,7 @@ CREATE TABLE Areas (
     enfermeria_jefe NUMBER
 );
 
-
-CREATE TABLE Doctores (
+CREATE TABLE pyd_Doctores (
     Id_Doctor NUMBER NOT NULL,
     Especialidad VARCHAR2(100) NOT NULL,
     Area_Especialidad NUMBER,
@@ -34,8 +31,7 @@ CREATE TABLE Doctores (
     Numero_Doc NUMBER NOT NULL
 );
 
-
-CREATE TABLE Enfermeras (
+CREATE TABLE pyd_Enfermeras (
     Id_Enfermera NUMBER NOT NULL,
     Area NUMBER,
     Especialidad VARCHAR2(100),
@@ -43,21 +39,20 @@ CREATE TABLE Enfermeras (
     Numero_Doc NUMBER NOT NULL
 );
 
-
-CREATE TABLE Pacientes (
+CREATE TABLE pyd_Pacientes (
     Id_Paciente NUMBER NOT NULL,
     Id_Eps NUMBER NOT NULL,
     Eps VARCHAR2(100) NOT NULL,
     Numero_Doc NUMBER NOT NULL
 );
 
-CREATE TABLE HistoriasClinicas (
+CREATE TABLE pyd_HistoriasClinicas (
     Id_Historia NUMBER NOT NULL,
     Eps VARCHAR2(100) NOT NULL,
     Nombre_Eps VARCHAR2(100) NOT NULL
 );
 
-CREATE TABLE Visitas (
+CREATE TABLE pyd_Visitas (
     Id_Visita NUMBER NOT NULL,
     Fecha DATE NOT NULL,
     Sintomas VARCHAR2(255) NOT NULL,
@@ -67,14 +62,14 @@ CREATE TABLE Visitas (
     Id_Historia NUMBER NOT NULL
 );
 
-CREATE TABLE Turnos (
+CREATE TABLE pyd_Turnos (
     Tipo_Turno NUMBER NOT NULL,
     Nombre_Turno VARCHAR2(50) NOT NULL,
     Inicia DATE NOT NULL,
     Acaba DATE NOT NULL
 );
 
-CREATE TABLE Citas (
+CREATE TABLE pyd_Citas (
     Id_Cita NUMBER NOT NULL,
     Id_Paciente NUMBER NOT NULL,
     Hora_Cita DATE NOT NULL,
@@ -84,12 +79,13 @@ CREATE TABLE Citas (
     Estado_Cita VARCHAR2(50) NOT NULL
 );
 
-CREATE TABLE PQRS (
+CREATE TABLE pyd_PQRS (
     Id_PQR NUMBER NOT NULL,
     Descripcion VARCHAR2(255) NOT NULL,
     Tema VARCHAR2(100),
     Cadena VARCHAR2(255)
 );
+
 
 ALTER TABLE Persona ADD CONSTRAINT PK_PERSONA PRIMARY KEY (Numero_doc);
 ALTER TABLE Cuartos ADD CONSTRAINT PK_CUARTOS PRIMARY KEY (N_Cuarto);
