@@ -190,38 +190,35 @@ ORDER BY
 
 
 -- End consultas-- *******************************************
---integridad declarativa
--- Restricción en Personas: El Tipo_documento debe ser consistente con la longitud o el formato.
-ALTER TABLE Personas ADD CONSTRAINT CHK_TIPO_DOC_VALIDO CHECK (
+-- Restricción en pyd_Personas: Valida la longitud del documento según el tipo.
+ALTER TABLE pyd_Personas ADD CONSTRAINT CHK_TIPO_DOC_VALIDO CHECK (
     (Tipo_documento = 'CC' AND LENGTH(Numero_doc) BETWEEN 8 AND 12) OR
     (Tipo_documento = 'TI' AND LENGTH(Numero_doc) BETWEEN 6 AND 10) OR
     (Tipo_documento = 'PAS' AND LENGTH(Numero_doc) BETWEEN 6 AND 15) OR
-    (Tipo_documento NOT IN ('CC', 'TI', 'PAS')) -- Permite otros tipos si no se definen reglas específicas
+    (Tipo_documento NOT IN ('CC', 'TI', 'PAS'))
 );
 
--- Restricción en Cuartos: Un cuarto solo puede estar 'Ocupado' si tiene un 'ocupante' asignado.
-ALTER TABLE Cuartos ADD CONSTRAINT CHK_ESTADO_OCUPANTE CHECK (
+-- Restricción en pyd_Cuartos: Un cuarto solo puede estar 'Ocupado' si tiene un 'ocupante' asignado.
+ALTER TABLE pyd_Cuartos ADD CONSTRAINT CHK_ESTADO_OCUPANTE CHECK (
     (Estado = 'Disponible' AND ocupante IS NULL) OR
     (Estado = 'Ocupado' AND ocupante IS NOT NULL) OR
-    (Estado = 'Mantenimiento') -- Un cuarto en mantenimiento no necesita ocupante
+    (Estado = 'Mantenimiento')
 );
 
--- Restricción en Citas: La Fecha_Cita debe ser posterior o igual a la fecha actual (asumiendo que la cita es futura).
--- NOTA: Como 'DATE' en Oracle almacena fecha y hora, uso DATE como ejemplo simple.
-ALTER TABLE Citas ADD CONSTRAINT CHK_FECHA_CITA_FUTURA CHECK (
+-- Restricción en pyd_Citas: La Fecha_Cita debe ser posterior o igual a la fecha actual (TRUNC(SYSDATE) se asume para Oracle).
+ALTER TABLE pyd_Citas ADD CONSTRAINT CHK_FECHA_CITA_FUTURA CHECK (
     Fecha_Cita >= TRUNC(SYSDATE)
 );
 
--- Restricción en Visitas: El Diagnostico solo puede existir si los Sintomas son proporcionados.
-ALTER TABLE Visitas ADD CONSTRAINT CHK_SINTOMAS_DIAGNOSTICO CHECK (
+-- Restricción en pyd_Visitas: El Diagnostico solo puede existir si los Sintomas son proporcionados (ambos deben estar presentes o ausentes).
+ALTER TABLE pyd_Visitas ADD CONSTRAINT CHK_SINTOMAS_DIAGNOSTICO CHECK (
     (Sintomas IS NOT NULL AND Diagnostico IS NOT NULL) OR (Sintomas IS NULL AND Diagnostico IS NULL)
 );
 
--- Restricción en Turnos: La fecha de inicio debe ser anterior a la fecha de fin.
-ALTER TABLE Turnos ADD CONSTRAINT CHK_INICIA_ACABA CHECK (
+-- Restricción en pyd_Turnos: La fecha de inicio debe ser anterior a la fecha de fin.
+ALTER TABLE pyd_Turnos ADD CONSTRAINT CHK_INICIA_ACABA CHECK (
     Inicia < Acaba
 );
-
 -- *******************************************
 -- ** Eliminación de FKs existentes para redefinición **
 -- *******************************************
@@ -265,38 +262,38 @@ FOREIGN KEY (Id_Paciente) REFERENCES pyd_Personas (Numero_doc)
 ON DELETE CASCADE;
 
 CREATE OR REPLACE TRIGGER trg_actualizar_estado_cuarto
-AFTER INSERT OR UPDATE OF ocupante ON Cuartos
+BEFORE INSERT OR UPDATE OF ocupante, Estado ON pyd_Cuartos
 FOR EACH ROW
 BEGIN
-    -- Si se inserta o actualiza un ocupante, el estado debe ser 'Ocupado'
+    -- Si se inserta o actualiza un ocupante, forzamos el estado a 'Ocupado'
     IF :NEW.ocupante IS NOT NULL AND :NEW.Estado != 'Ocupado' THEN
-        UPDATE Cuartos
-        SET Estado = 'Ocupado'
-        WHERE N_Cuarto = :NEW.N_Cuarto;
-    -- Si el ocupante se establece en NULL, el estado debe ser 'Disponible'
+        :NEW.Estado := 'Ocupado';
+    
+    -- Si el ocupante se establece en NULL, forzamos el estado a 'Disponible', 
+    -- siempre y cuando el estado actual no sea 'Mantenimiento'.
     ELSIF :NEW.ocupante IS NULL AND :NEW.Estado != 'Disponible' AND :NEW.Estado != 'Mantenimiento' THEN
-        UPDATE Cuartos
-        SET Estado = 'Disponible'
-        WHERE N_Cuarto = :NEW.N_Cuarto;
+        :NEW.Estado := 'Disponible';
     END IF;
 END;
-
+/
 CREATE OR REPLACE TRIGGER trg_actualizar_estado_cita
-BEFORE UPDATE OF Diagnostico ON Citas
+BEFORE UPDATE OF Diagnostico ON pyd_Citas
 FOR EACH ROW
 BEGIN
     -- Si el Diagnostico cambia de NULL a un valor, el Estado_Cita debe ser 'Completada'
     IF :OLD.Diagnostico IS NULL AND :NEW.Diagnostico IS NOT NULL THEN
         :NEW.Estado_Cita := 'Completada';
-    -- Si se elimina el Diagnostico, el Estado_Cita podría volver a 'Pendiente'
+    
+    -- Si se elimina el Diagnostico, el Estado_Cita vuelve a 'Pendiente'
     ELSIF :OLD.Diagnostico IS NOT NULL AND :NEW.Diagnostico IS NULL THEN
         :NEW.Estado_Cita := 'Pendiente';
     END IF;
 END;
+/
 
 
 CREATE OR REPLACE TRIGGER trg_check_doctor_area
-BEFORE INSERT OR UPDATE OF Area_Especialidad, Especialidad ON Doctores
+BEFORE INSERT OR UPDATE OF Area_Especialidad, Especialidad ON pyd_Doctores
 FOR EACH ROW
 DECLARE
     v_especialidad_area VARCHAR2(100);
@@ -304,7 +301,7 @@ BEGIN
     IF :NEW.Area_Especialidad IS NOT NULL THEN
         -- Obtener la especialidad de la Área a la que se está asignando
         SELECT especialidad INTO v_especialidad_area
-        FROM Areas
+        FROM pyd_Areas -- Tabla actualizada
         WHERE Area = :NEW.Area_Especialidad;
 
         IF :NEW.Especialidad != v_especialidad_area THEN
@@ -312,6 +309,7 @@ BEGIN
         END IF;
     END IF;
 END;
+/
 
 
 -- * Tuplas ok
