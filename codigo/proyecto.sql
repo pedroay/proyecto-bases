@@ -190,7 +190,7 @@ ORDER BY
 
 
 -- End consultas-- *******************************************
-
+--integridad declarativa
 -- Restricción en Personas: El Tipo_documento debe ser consistente con la longitud o el formato.
 ALTER TABLE Personas ADD CONSTRAINT CHK_TIPO_DOC_VALIDO CHECK (
     (Tipo_documento = 'CC' AND LENGTH(Numero_doc) BETWEEN 8 AND 12) OR
@@ -236,30 +236,32 @@ ALTER TABLE Enfermeras DROP CONSTRAINT FK_ENFERMERA_PERSONA;
 
 -- 1. Si elimino una Persona:
 
-ALTER TABLE Doctores ADD CONSTRAINT FK_DOCTOR_PERSONA
-FOREIGN KEY (Numero_Doc) REFERENCES Personas (Numero_doc)
-ON DELETE CASCADE; -- Si se borra la persona, se borra el doctor asociado
+    -- Persona -> Doctor/Enfermera/Paciente (Tu lógica: si se borra la Persona, se borra el rol asociado)
+ALTER TABLE pyd_Doctores ADD CONSTRAINT FK_DOCTOR_PERSONA
+FOREIGN KEY (Numero_Doc) REFERENCES pyd_Personas (Numero_doc)
+ON DELETE CASCADE;
 
-ALTER TABLE Enfermeras ADD CONSTRAINT FK_ENFERMERA_PERSONA
-FOREIGN KEY (Numero_Doc) REFERENCES Personas (Numero_doc)
-ON DELETE CASCADE; -- Si se borra la persona, se borra la enfermera asociada
+ALTER TABLE pyd_Enfermeras ADD CONSTRAINT FK_ENFERMERA_PERSONA
+FOREIGN KEY (Numero_Doc) REFERENCES pyd_Personas (Numero_doc)
+ON DELETE CASCADE;
 
-ALTER TABLE Cuartos ADD CONSTRAINT FK_CUARTO_OCUPANTE
-FOREIGN KEY (ocupante) REFERENCES Personas (Numero_doc)
-ON DELETE SET NULL; -- Si el ocupante es eliminado, el cuarto queda NULL/Disponible.
+ALTER TABLE pyd_Pacientes ADD CONSTRAINT FK_PACIENTE_PERSONA
+FOREIGN KEY (Numero_Doc) REFERENCES pyd_Personas (Numero_doc)
+ON DELETE CASCADE;
 
--- 2. Si elimino un Doctor:
---    - Áreas: El doctor encargado de un área pasa a ser NULL (SET NULL).
-ALTER TABLE Areas DROP CONSTRAINT FK_AREA_DOCTOR_ENCARGADO;
-ALTER TABLE Areas ADD CONSTRAINT FK_AREA_DOCTOR_ENCARGADO
-FOREIGN KEY (doctor_encargado) REFERENCES Doctores (Id_Doctor)
-ON DELETE SET NULL;
+-- Historia Clínica -> Visitas (Tu lógica)
+ALTER TABLE pyd_Visitas ADD CONSTRAINT FK_VISITA_HISTORIA
+FOREIGN KEY (Id_Historia) REFERENCES pyd_HistoriasClinicas (Id_Historia)
+ON DELETE CASCADE;
 
--- 3. Si elimino una Historia Clínica:
---    - Visitas: Las visitas asociadas a la historia se deben borrar (CASCADE).
-ALTER TABLE Visitas DROP CONSTRAINT FK_VISITA_HISTORIA;
-ALTER TABLE Visitas ADD CONSTRAINT FK_VISITA_HISTORIA
-FOREIGN KEY (Id_Historia) REFERENCES HistoriasClinicas (Id_Historia)
+-- Doctor -> Citas (Si el Doctor es eliminado, se eliminan sus citas)
+ALTER TABLE pyd_Citas ADD CONSTRAINT FK_CITA_DOCTOR
+FOREIGN KEY (Id_Doctor) REFERENCES pyd_Doctores (Id_Doctor)
+ON DELETE CASCADE;
+
+-- Paciente/Persona -> Citas (Si la Persona/Paciente es eliminado, se eliminan sus citas)
+ALTER TABLE pyd_Citas ADD CONSTRAINT FK_CITA_PACIENTE
+FOREIGN KEY (Id_Paciente) REFERENCES pyd_Personas (Numero_doc)
 ON DELETE CASCADE;
 
 CREATE OR REPLACE TRIGGER trg_actualizar_estado_cuarto

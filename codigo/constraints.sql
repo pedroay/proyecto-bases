@@ -13,13 +13,16 @@ ALTER TABLE pyd_PQRS ADD CONSTRAINT PK_PQR PRIMARY KEY (Id_PQR);
 
 --foraneas 
 ALTER TABLE pyd_Doctores ADD CONSTRAINT FK_DOCTOR_PERSONA
-FOREIGN KEY (Id_Doctor) REFERENCES pyd_Personas (Numero_doc);
+FOREIGN KEY (Numero_Doc) REFERENCES pyd_Personas (Numero_doc)
+ON DELETE CASCADE;
 
 ALTER TABLE pyd_Enfermeras ADD CONSTRAINT FK_ENFERMERA_PERSONA
-FOREIGN KEY (Id_Enfermera) REFERENCES pyd_Personas (Numero_doc);
+FOREIGN KEY (Numero_Doc) REFERENCES pyd_Personas (Numero_doc)
+ON DELETE CASCADE;
 
 ALTER TABLE pyd_Pacientes ADD CONSTRAINT FK_PACIENTE_PERSONA
-FOREIGN KEY (Numero_Doc) REFERENCES pyd_Personas (Numero_doc);
+FOREIGN KEY (Numero_Doc) REFERENCES pyd_Personas (Numero_doc)
+ON DELETE CASCADE;
 
 ALTER TABLE pyd_Cuartos ADD CONSTRAINT FK_CUARTO_OCUPANTE
 FOREIGN KEY (ocupante) REFERENCES pyd_Personas (Numero_doc);
@@ -46,10 +49,13 @@ ALTER TABLE pyd_Pacientes ADD CONSTRAINT FK_PACIENTE_HISTORIA
 FOREIGN KEY (Id_paciente) REFERENCES pyd_HistoriasClinicas (Id_Historia);
 
 ALTER TABLE pyd_Visitas ADD CONSTRAINT FK_VISITA_HISTORIA
-FOREIGN KEY (Id_Historia) REFERENCES pyd_HistoriasClinicas (Id_Historia);
+FOREIGN KEY (Id_Historia) REFERENCES pyd_HistoriasClinicas (Id_Historia)
+ON DELETE CASCADE;
 
 ALTER TABLE pyd_Citas ADD CONSTRAINT FK_CITA_PACIENTE
-FOREIGN KEY (Id_Paciente) REFERENCES pyd_Personas (Numero_doc);
+FOREIGN KEY (Id_Paciente) REFERENCES pyd_Personas (Numero_doc)
+ON DELETE CASCADE;
 
 ALTER TABLE pyd_Citas ADD CONSTRAINT FK_CITA_DOCTOR
-FOREIGN KEY (Id_Doctor) REFERENCES pyd_Doctores (Id_Doctor);
+FOREIGN KEY (Id_Doctor) REFERENCES pyd_Doctores (Id_Doctor)
+ON DELETE CASCADE;
