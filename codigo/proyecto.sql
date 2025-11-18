@@ -143,18 +143,18 @@ FOREIGN KEY (Id_Paciente) REFERENCES pyd_Personas (Numero_doc);
 ALTER TABLE pyd_Citas ADD CONSTRAINT FK_CITA_DOCTOR
 FOREIGN KEY (Id_Doctor) REFERENCES pyd_Doctores (Id_Doctor);
 
--- Consultas
+-- Consultas Y DE AQUI TENGO QUE HACER LOS NUEVOS ARCHIVOS
 SELECT
     D.primer_nombre || ' ' || D.primer_apellido AS Nombre_Doctor,
     P.primer_nombre || ' ' || P.primer_apellido AS Nombre_Paciente,
     C.Fecha_Cita,
     C.Diagnostico
-FROM Citas C
-JOIN Doctores DOC ON C.Id_Doctor = DOC.Id_Doctor
-JOIN Personas D ON DOC.Numero_Doc = D.Numero_doc -- Persona del Doctor
-JOIN Personas P ON C.Id_Paciente = P.Numero_doc -- Persona del Paciente (asumiendo FK Citas(Id_Paciente) -> Personas(Numero_doc))
+FROM pyd_Citas C
+JOIN pyd_Doctores DOC ON C.Id_Doctor = DOC.Id_Doctor
+JOIN pyd_Personas D ON DOC.Numero_Doc = D.Numero_doc -- Persona del Doctor
+JOIN pyd_Personas P ON C.Id_Paciente = P.Numero_doc -- Persona del Paciente
 WHERE
-    DOC.Id_Doctor = 101 -- Reemplazar con el ID del Doctor
+    DOC.Id_Doctor = 101 -- Reemplazar con el ID del Doctor deseado
     AND C.Fecha_Cita BETWEEN DATE '2025-01-01' AND DATE '2025-03-31' -- Reemplazar con el rango de fechas
 ORDER BY
     C.Fecha_Cita DESC;
@@ -165,8 +165,8 @@ ORDER BY
     CU.Estado,
     COALESCE(PE.primer_nombre || ' ' || PE.primer_apellido, 'N/A') AS Nombre_Ocupante,
     COALESCE(PE.Tipo_documento || ': ' || PE.Numero_doc, 'N/A') AS Identificacion_Ocupante
-FROM Cuartos CU
-LEFT JOIN Personas PE ON CU.ocupante = PE.Numero_doc
+FROM pyd_Cuartos CU
+LEFT JOIN pyd_Personas PE ON CU.ocupante = PE.Numero_doc
 WHERE
     CU.Estado IN ('Disponible', 'Ocupado') -- Filtrar por cuartos relevantes para admisión
 ORDER BY
@@ -179,10 +179,10 @@ ORDER BY
     V.Sintomas,
     V.Diagnostico,
     V.Tratamiento
-FROM Pacientes PA
-JOIN Personas P ON PA.Numero_Doc = P.Numero_doc
-JOIN HistoriasClinicas HC ON PA.Id_Historia = HC.Id_Historia -- Asumiendo corrección en Pacientes(Id_Historia)
-JOIN Visitas V ON HC.Id_Historia = V.Id_Historia
+FROM pyd_Pacientes PA
+JOIN pyd_Personas P ON PA.Numero_Doc = P.Numero_doc
+JOIN pyd_HistoriasClinicas HC ON PA.Id_Historia = HC.Id_Historia -- Nota: Asegúrate de que esta columna exista en pyd_Pacientes
+JOIN pyd_Visitas V ON HC.Id_Historia = V.Id_Historia
 WHERE
     P.Numero_doc = 12345678 -- Reemplazar con el Número de Documento del Paciente
 ORDER BY
