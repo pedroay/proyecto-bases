@@ -26,14 +26,14 @@ CREATE TABLE pyd_Areas (
 CREATE TABLE pyd_Doctores (
     Id_Doctor NUMBER NOT NULL,
     Especialidad VARCHAR2(100) NOT NULL,
-    Area_Especialidad NUMBER,
+    Area_Especialidad VARCHAR2(100),
     T_Turno NUMBER,
     Numero_Doc NUMBER NOT NULL
 );
 
 CREATE TABLE pyd_Enfermeras (
     Id_Enfermera NUMBER NOT NULL,
-    Area NUMBER,
+    Area VARCHAR2(100),
     Especialidad VARCHAR2(100),
     Turno NUMBER,
     Numero_Doc NUMBER NOT NULL

@@ -12,11 +12,6 @@ ALTER TABLE pyd_Cuartos ADD CONSTRAINT CHK_ESTADO_OCUPANTE CHECK (
     (Estado = 'Mantenimiento')
 );
 
--- Restricción en pyd_Citas: La Fecha_Cita debe ser posterior o igual a la fecha actual (TRUNC(SYSDATE) se asume para Oracle).
-ALTER TABLE pyd_Citas ADD CONSTRAINT CHK_FECHA_CITA_FUTURA CHECK (
-    Fecha_Cita >= TRUNC(SYSDATE)
-);
-
 -- Restricción en pyd_Visitas: El Diagnostico solo puede existir si los Sintomas son proporcionados (ambos deben estar presentes o ausentes).
 ALTER TABLE pyd_Visitas ADD CONSTRAINT CHK_SINTOMAS_DIAGNOSTICO CHECK (
     (Sintomas IS NOT NULL AND Diagnostico IS NOT NULL) OR (Sintomas IS NULL AND Diagnostico IS NULL)
