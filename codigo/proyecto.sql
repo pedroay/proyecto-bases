@@ -143,8 +143,10 @@ raneas
     FOREIGN KEY (Turno) REFERENCES pyd_Turnos (Tipo_Turno)
     on delete set null;
 
-    ALTER TABLE pyd_Pacientes ADD CONSTRAINT FK_PACIENTE_HISTORIA
-    FOREIGN KEY (Id_paciente) REFERENCES pyd_HistoriasClinicas (Id_Historia);
+    ALTER TABLE pyd_HistoriasClinicas
+    ADD CONSTRAINT FK_HISTORIA_PACIENTE
+    FOREIGN KEY (Id_Historia)
+    REFERENCES pyd_Pacientes (Id_Paciente);
 
 
     ALTER TABLE pyd_Visitas ADD CONSTRAINT FK_VISITA_HISTORIA
@@ -328,81 +330,87 @@ END;
 
 
 -- * Tuplas ok
-INSERT INTO Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) VALUES (101, 'Ocupado', 'Individual', 90123456);
+-- * Tuplas OK
+INSERT INTO pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) VALUES (101, 'Ocupado', 'Individual', 90123456);
 
-INSERT INTO Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Estado_Cita) VALUES (5001, 12345678, SYSDATE + 1/24, SYSDATE + 1, 101, 'Pendiente');
+INSERT INTO pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Estado_Cita) VALUES (5001, 12345678, SYSDATE + 1/24, SYSDATE + 1, 101, 'Pendiente');
 
-INSERT INTO Turnos (Tipo_Turno, Nombre_Turno, Inicia, Acaba) VALUES (4, 'Noche_Largo', DATE '2025-11-01 22:00:00', DATE '2025-11-02 08:00:00');
+INSERT INTO pyd_Turnos (Tipo_Turno, Nombre_Turno, Inicia, Acaba) VALUES (4, 'Noche_Largo', DATE '2025-11-01 22:00:00', DATE '2025-11-02 08:00:00');
 
--- * Tuplas no ok
+-- * Tuplas no ok (Se espera que fallen por las restricciones CHECK o ON DELETE)
 
-INSERT INTO Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) VALUES (102, 'Ocupado', 'Doble', NULL);
+INSERT INTO pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) VALUES (102, 'Ocupado', 'Doble', NULL);
+-- Falla: CHK_ESTADO_OCUPANTE (Estado 'Ocupado' debe tener ocupante)
 
-INSERT INTO Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Estado_Cita) VALUES (5002, 87654321, SYSDATE - 1/24, DATE '2025-10-31', 102, 'Pendiente');
+INSERT INTO pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Estado_Cita) VALUES (5002, 87654321, SYSDATE - 1/24, DATE '2025-10-31', 102, 'Pendiente');
+-- Falla: TRG_CHECK_FECHA_CITA_FUTURA (Fecha de la cita debe ser >= TRUNC(SYSDATE))
 
-INSERT INTO Turnos (Tipo_Turno, Nombre_Turno, Inicia, Acaba) VALUES (5, 'Turno_Invertido', DATE '2025-11-02 10:00:00', DATE '2025-11-02 08:00:00');
+INSERT INTO pyd_Turnos (Tipo_Turno, Nombre_Turno, Inicia, Acaba) VALUES (5, 'Turno_Invertido', DATE '2025-11-02 10:00:00', DATE '2025-11-02 08:00:00');
+-- Falla: CHK_INICIA_ACABA (Inicia debe ser < Acaba)
 
--- * Accesiones OK
-INSERT INTO Personas (Numero_doc, Tipo_documento, primer_nombre, primer_apellido, correo_electronico) VALUES (900, 'CC', 'Doctor', 'Borrable', 'docborrable@clinic.com');
+-- * Accesiones OK (Pruebas de ON DELETE)
+INSERT INTO pyd_Personas (Numero_doc, Tipo_documento, primer_nombre, primer_apellido, correo_electronico) VALUES (900, 'CC', 'Doctor', 'Borrable', 'docborrable@clinic.com');
 
-INSERT INTO Doctores (Id_Doctor, Especialidad, Numero_Doc) VALUES (9000, 'Pediatria', 900);
+INSERT INTO pyd_Doctores (Id_Doctor, Especialidad, Area_Especialidad, T_Turno, Numero_Doc) VALUES (9000, 'Pediatria', NULL, NULL, 900);
+-- El FK_DOCTOR_PERSONA ON DELETE CASCADE elimina al Doctor 9000.
+DELETE FROM pyd_Personas WHERE Numero_doc = 900; 
 
-DELETE FROM Personas WHERE Numero_doc = 900;
+INSERT INTO pyd_Personas (Numero_doc, Tipo_documento, primer_nombre, primer_apellido, correo_electronico) VALUES (901, 'CC', 'Paciente', 'Sale', 'pacsale@clinic.com');
 
-INSERT INTO Personas (Numero_doc, Tipo_documento, primer_nombre, primer_apellido, correo_electronico) VALUES (901, 'CC', 'Paciente', 'Sale', 'pacsale@clinic.com');
+INSERT INTO pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) VALUES (201, 'Ocupado', 'Suite', 901);
+-- El FK_CUARTO_OCUPANTE ON DELETE SET NULL pone 'ocupante = NULL' en el Cuarto 201.
+DELETE FROM pyd_Personas WHERE Numero_doc = 901; 
 
-INSERT INTO Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) VALUES (201, 'Ocupado', 'Suite', 901);
+INSERT INTO pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) VALUES (999, 'SOS', 'Salud SOS');
 
-DELETE FROM Personas WHERE Numero_doc = 901;
+INSERT INTO pyd_Visitas (Id_Visita, Fecha, Sintomas, Diagnostico, Tratamiento, Id_Historia) VALUES (9999, SYSDATE, 'Fiebre', 'Gripe', 'Reposo', 999);
+-- El FK_VISITA_HISTORIA ON DELETE CASCADE elimina la Visita 9999.
+DELETE FROM pyd_HistoriasClinicas WHERE Id_Historia = 999; 
 
-INSERT INTO HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) VALUES (999, 'SOS', 'Salud SOS');
+-- * Disparadores OK (Pruebas de TRG_ACTUALIZAR_ESTADO_CUARTO)
+-- Asumiendo Cuarto 103 existe.
+UPDATE pyd_Cuartos SET ocupante = NULL, Estado = 'Disponible' WHERE N_Cuarto = 103;
 
-INSERT INTO Visitas (Id_Visita, Fecha, Sintomas, Diagnostico, Tratamiento, Id_Historia) VALUES (9999, SYSDATE, 'Fiebre', 'Gripe', 'Reposo', 999);
+UPDATE pyd_Cuartos SET ocupante = 90123456 WHERE N_Cuarto = 103;
+-- El trigger pondrá el Estado de 103 en 'Ocupado' si estaba en 'Disponible'.
 
-DELETE FROM HistoriasClinicas WHERE Id_Historia = 999;
+-- * ---------- (Prueba de TRG_ACTUALIZAR_ESTADO_CITA)
+INSERT INTO pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Estado_Cita) VALUES (6001, 12345678, SYSDATE + 2/24, SYSDATE + 2, 101, 'Pendiente');
 
--- * Disparadores OK
+UPDATE pyd_Citas SET Diagnostico = 'Infección leve, receta antibiótico' WHERE Id_Cita = 6001;
+-- El trigger pondrá el Estado_Cita en 'Completada'.
 
-UPDATE Cuartos SET ocupante = NULL, Estado = 'Disponible' WHERE N_Cuarto = 103;
+-- * ----------- (Prueba de TRG_CHECK_DOCTOR_AREA)
+INSERT INTO pyd_Areas (Area, especialidad, camas) VALUES ('Cardiología General', 'Cardiología', 25);
+-- Asumiendo que el Dr 9001 (y su Numero_Doc) existen.
+INSERT INTO pyd_Doctores (Id_Doctor, Especialidad, Area_Especialidad, T_Turno, Numero_Doc) VALUES (9001, 'Cardiología', NULL, NULL, 902); 
 
-UPDATE Cuartos SET ocupante = 90123456 WHERE N_Cuarto = 103;
+UPDATE pyd_Doctores SET Area_Especialidad = 'Cardiología General' WHERE Id_Doctor = 9001;
+-- OK: Especialidad (Cardiología) coincide con Area_Especialidad (Cardiología General).
 
--- * ----------
-INSERT INTO Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Estado_Cita) VALUES (6001, 12345678, SYSDATE + 2, SYSDATE + 2, 101, 'Pendiente');
-
-UPDATE Citas SET Diagnostico = 'Infección leve, receta antibiótico' WHERE Id_Cita = 6001;
-
--- * -----------
-
-INSERT INTO Areas (Area, especialidad, camas) VALUES ('Cardiología General', 'Cardiología', 25);
-
-INSERT INTO Doctores (Id_Doctor, Especialidad, Numero_Doc) VALUES (9001, 'Cardiología', 902);
-
-UPDATE Doctores SET Area_Especialidad = 'Cardiología General' WHERE Id_Doctor = 9001;
-
--- * Disparadores NO OK
-
-UPDATE Doctores SET Area_Especialidad = 'Cardiología General' WHERE Id_Doctor = 9000;
--- Asumiendo Doctor 9000 es 'Pediatría'.
-
+-- * Disparadores NO OK (Prueba de TRG_CHECK_DOCTOR_AREA - Se espera que falle)
+-- El doctor 9000 (Pediatría) intenta entrar a un área de Cardiología.
+UPDATE pyd_Doctores SET Area_Especialidad = 'Cardiología General' WHERE Id_Doctor = 9000;
+-- Falla: El trigger aborta la operación con RAISE_APPLICATION_ERROR.
 
 
 -- *******************************************
--- ** Eliminación de Disparadores **
+-- ** Eliminación de Disparadores y Tablas **
 -- *******************************************
 
 DROP TRIGGER trg_actualizar_estado_cuarto;
 DROP TRIGGER trg_actualizar_estado_cita;
 DROP TRIGGER trg_check_doctor_area;
 
-DROP TABLE Citas CASCADE CONSTRAINTS;
-DROP TABLE Visitas CASCADE CONSTRAINTS;
-DROP TABLE Pacientes CASCADE CONSTRAINTS;
-DROP TABLE Doctores CASCADE CONSTRAINTS;
-DROP TABLE Enfermeras CASCADE CONSTRAINTS;
-DROP TABLE Cuartos CASCADE CONSTRAINTS;
-DROP TABLE Areas CASCADE CONSTRAINTS;
-DROP TABLE Turnos CASCADE CONSTRAINTS;
-DROP TABLE HistoriasClinicas CASCADE CONSTRAINTS;
-DROP TABLE Personas CASCADE CONSTRAINTS;
-DROP TABLE PQRS CASCADE CONSTRAINTS;
+-- Se borran todas las tablas, incluyendo datos y constraints.
+DROP TABLE pyd_Citas CASCADE CONSTRAINTS;
+DROP TABLE pyd_Visitas CASCADE CONSTRAINTS;
+DROP TABLE pyd_Pacientes CASCADE CONSTRAINTS;
+DROP TABLE pyd_Doctores CASCADE CONSTRAINTS;
+DROP TABLE pyd_Enfermeras CASCADE CONSTRAINTS;
+DROP TABLE pyd_Cuartos CASCADE CONSTRAINTS;
+DROP TABLE pyd_Areas CASCADE CONSTRAINTS;
+DROP TABLE pyd_Turnos CASCADE CONSTRAINTS;
+DROP TABLE pyd_HistoriasClinicas CASCADE CONSTRAINTS;
+DROP TABLE pyd_Personas CASCADE CONSTRAINTS;
+DROP TABLE pyd_PQRS CASCADE CONSTRAINTS;
