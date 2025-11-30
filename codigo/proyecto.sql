@@ -143,8 +143,10 @@ raneas
     FOREIGN KEY (Turno) REFERENCES pyd_Turnos (Tipo_Turno)
     on delete set null;
 
-    ALTER TABLE pyd_Pacientes ADD CONSTRAINT FK_PACIENTE_HISTORIA
-    FOREIGN KEY (Id_paciente) REFERENCES pyd_HistoriasClinicas (Id_Historia);
+    ALTER TABLE pyd_HistoriasClinicas
+    ADD CONSTRAINT FK_HISTORIA_PACIENTE
+    FOREIGN KEY (Id_Historia)
+    REFERENCES pyd_Pacientes (Id_Paciente);
 
 
     ALTER TABLE pyd_Visitas ADD CONSTRAINT FK_VISITA_HISTORIA
