@@ -2031,38 +2031,1212 @@ insert into pyd_Pacientes (Id_paciente, Id_Eps, Eps, Numero_doc) values (600, 4,
 
 --HISTORIAS CLINICAS
 
-INSERT INTO pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) VALUES (2998, 'Sanitas', 'EPS Sanitas');
-INSERT INTO pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) VALUES (2999, 'Sura', 'EPS Sura');
-INSERT INTO pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) VALUES (3000, 'Compensar', 'EPS Compensar');
-INSERT INTO pyd_HistoriasClinicas VALUES (3001, 1, 'Sanitas');
-INSERT INTO pyd_HistoriasClinicas VALUES (3002, 3, 'Compensar');
-INSERT INTO pyd_HistoriasClinicas VALUES (3003, 5, 'Nueva EPS');
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (1, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (2, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (3, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (4, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (5, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (6, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (7, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (8, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (9, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (10, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (11, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (12, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (13, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (14, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (15, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (16, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (17, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (18, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (19, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (20, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (21, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (22, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (23, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (24, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (25, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (26, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (27, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (28, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (29, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (30, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (31, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (32, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (33, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (34, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (35, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (36, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (37, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (38, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (39, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (40, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (41, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (42, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (43, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (44, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (45, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (46, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (47, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (48, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (49, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (50, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (51, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (52, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (53, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (54, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (55, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (56, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (57, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (58, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (59, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (60, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (61, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (62, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (63, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (64, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (65, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (66, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (67, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (68, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (69, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (70, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (71, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (72, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (73, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (74, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (75, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (76, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (77, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (78, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (79, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (80, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (81, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (82, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (83, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (84, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (85, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (86, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (87, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (88, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (89, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (90, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (91, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (92, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (93, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (94, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (95, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (96, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (97, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (98, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (99, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (100, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (101, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (102, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (103, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (104, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (105, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (106, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (107, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (108, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (109, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (110, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (111, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (112, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (113, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (114, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (115, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (116, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (117, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (118, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (119, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (120, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (121, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (122, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (123, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (124, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (125, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (126, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (127, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (128, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (129, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (130, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (131, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (132, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (133, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (134, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (135, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (136, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (137, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (138, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (139, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (140, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (141, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (142, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (143, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (144, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (145, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (146, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (147, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (148, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (149, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (150, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (151, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (152, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (153, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (154, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (155, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (156, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (157, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (158, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (159, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (160, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (161, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (162, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (163, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (164, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (165, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (166, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (167, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (168, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (169, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (170, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (171, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (172, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (173, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (174, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (175, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (176, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (177, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (178, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (179, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (180, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (181, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (182, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (183, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (184, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (185, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (186, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (187, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (188, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (189, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (190, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (191, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (192, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (193, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (194, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (195, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (196, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (197, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (198, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (199, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (200, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (201, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (202, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (203, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (204, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (205, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (206, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (207, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (208, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (209, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (210, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (211, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (212, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (213, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (214, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (215, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (216, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (217, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (218, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (219, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (220, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (221, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (222, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (223, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (224, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (225, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (226, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (227, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (228, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (229, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (230, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (231, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (232, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (233, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (234, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (235, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (236, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (237, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (238, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (239, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (240, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (241, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (242, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (243, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (244, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (245, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (246, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (247, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (248, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (249, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (250, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (251, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (252, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (253, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (254, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (255, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (256, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (257, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (258, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (259, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (260, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (261, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (262, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (263, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (264, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (265, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (266, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (267, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (268, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (269, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (270, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (271, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (272, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (273, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (274, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (275, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (276, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (277, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (278, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (279, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (280, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (281, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (282, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (283, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (284, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (285, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (286, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (287, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (288, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (289, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (290, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (291, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (292, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (293, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (294, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (295, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (296, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (297, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (298, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (299, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (300, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (301, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (302, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (303, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (304, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (305, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (306, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (307, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (308, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (309, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (310, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (311, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (312, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (313, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (314, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (315, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (316, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (317, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (318, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (319, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (320, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (321, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (322, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (323, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (324, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (325, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (326, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (327, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (328, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (329, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (330, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (331, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (332, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (333, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (334, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (335, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (336, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (337, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (338, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (339, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (340, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (341, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (342, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (343, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (344, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (345, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (346, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (347, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (348, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (349, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (350, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (351, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (352, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (353, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (354, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (355, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (356, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (357, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (358, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (359, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (360, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (361, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (362, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (363, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (364, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (365, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (366, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (367, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (368, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (369, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (370, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (371, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (372, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (373, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (374, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (375, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (376, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (377, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (378, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (379, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (380, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (381, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (382, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (383, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (384, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (385, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (386, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (387, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (388, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (389, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (390, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (391, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (392, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (393, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (394, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (395, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (396, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (397, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (398, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (399, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (400, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (401, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (402, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (403, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (404, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (405, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (406, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (407, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (408, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (409, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (410, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (411, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (412, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (413, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (414, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (415, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (416, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (417, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (418, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (419, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (420, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (421, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (422, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (423, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (424, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (425, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (426, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (427, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (428, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (429, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (430, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (431, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (432, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (433, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (434, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (435, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (436, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (437, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (438, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (439, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (440, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (441, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (442, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (443, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (444, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (445, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (446, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (447, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (448, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (449, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (450, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (451, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (452, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (453, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (454, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (455, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (456, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (457, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (458, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (459, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (460, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (461, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (462, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (463, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (464, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (465, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (466, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (467, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (468, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (469, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (470, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (471, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (472, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (473, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (474, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (475, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (476, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (477, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (478, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (479, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (480, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (481, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (482, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (483, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (484, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (485, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (486, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (487, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (488, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (489, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (490, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (491, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (492, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (493, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (494, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (495, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (496, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (497, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (498, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (499, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (500, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (501, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (502, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (503, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (504, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (505, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (506, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (507, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (508, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (509, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (510, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (511, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (512, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (513, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (514, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (515, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (516, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (517, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (518, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (519, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (520, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (521, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (522, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (523, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (524, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (525, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (526, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (527, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (528, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (529, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (530, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (531, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (532, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (533, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (534, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (535, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (536, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (537, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (538, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (539, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (540, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (541, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (542, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (543, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (544, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (545, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (546, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (547, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (548, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (549, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (550, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (551, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (552, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (553, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (554, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (555, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (556, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (557, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (558, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (559, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (560, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (561, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (562, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (563, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (564, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (565, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (566, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (567, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (568, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (569, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (570, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (571, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (572, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (573, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (574, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (575, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (576, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (577, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (578, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (579, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (580, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (581, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (582, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (583, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (584, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (585, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (586, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (587, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (588, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (589, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (590, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (591, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (592, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (593, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (594, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (595, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (596, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (597, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (598, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (599, null, null);
+insert into pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) values (600, null, null);
 
 --PYD_VISITAS
 
-INSERT INTO pyd_Visitas VALUES (5001,SYSDATE - 10,'Dolor torácico',NULL,'Arritmia leve','Reposo + medicación',3001);
-INSERT INTO pyd_Visitas VALUES (5002,SYSDATE - 5,'Fiebre',NULL,'Infección viral','Acetaminofén',3002);
-INSERT INTO pyd_Visitas VALUES (5003,SYSDATE - 2,'Erupción cutánea',NULL,'Dermatitis','Cremas tópicas',3003);
-INSERT INTO pyd_Visitas VALUES (5004, SYSDATE - 8, 'Dolor abdominal', 'Ecografía abdominal', 'Gastritis leve', 'Omeprazol 20mg', 3001);
-INSERT INTO pyd_Visitas VALUES (5005, SYSDATE - 3, 'Dolor de cabeza', 'Tomografía', 'Migraña', 'Analgésicos', 3002);
-INSERT INTO pyd_Visitas VALUES (5006, SYSDATE - 1, 'Tos seca', 'Radiografía de tórax', 'Bronquitis', 'Jarabe expectorante', 3003);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (1, '10/2/2024', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'Tomografía', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 'Flomax', 441);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (2, '11/29/2025', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 'Radiografía de tórax', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'Ranitidine', 13);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (3, '2/21/2025', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 'Radiografía de tórax', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 'Sodium Monofluorophosphate', 479);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (4, '12/17/2024', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 'Ecografía abdominal', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 'fexofenadine hydrochloride and pseudoephedrine hydrochloride', 472);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (5, '12/30/2024', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 'Tomografía', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 'Imiquimod', 541);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (6, '4/6/2025', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 'Radiografía de tórax', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 'SODIUM SULFACETAMIDE and SULFUR', 395);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (7, '7/29/2024', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 'Tomografía', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 'Mepivacaine Hydrochloride', 264);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (8, '3/2/2025', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 'Radiografía de tórax', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'Glycopyrrolate', 366);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (9, '1/22/2025', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 'Tomografía', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 'leucovorin calcium', 288);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (10, '10/3/2024', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 'Radiografía de tórax', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 'Naproxen', 14);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (11, '8/30/2024', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'Tomografía', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 'Lisinopril', 404);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (12, '11/1/2024', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 'Ecografía abdominal', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'sirolimus', 29);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (13, '6/4/2025', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 'exameness de sangre', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 'Fluconazole', 79);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (14, '8/27/2024', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 'Tomografía', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'flurbiprofen', 273);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (15, '8/23/2024', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 'exameness de sangre', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 'Benzocaine', 169);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (16, '1/9/2025', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 'Radiografía de tórax', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 'Allergenic Extracts Alum Precipitated', 561);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (17, '2/12/2025', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 'exameness de sangre', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 'Avobenzone, Homosalate, Octisalate, Octocrylene, and Oxybenzone', 426);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (18, '9/29/2024', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 'Tomografía', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 'Aspen', 300);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (19, '7/30/2024', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 'Radiografía de tórax', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 'Betamethasone Valerate', 460);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (20, '7/11/2025', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 'Radiografía de tórax', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 'Bismuth subsalicylate', 286);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (21, '12/19/2024', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 'exameness de sangre', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 'Midazolam HCl', 202);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (22, '8/27/2025', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 'exameness de sangre', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'Cefdinir', 577);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (23, '2/5/2025', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 'Ecografía abdominal', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 'perphenazine', 126);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (24, '8/28/2024', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 'Radiografía de tórax', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 'Dextran 70 Polyethylene Glycol 400 Povidone Tetrahydrozoline HCI', 586);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (25, '3/16/2025', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 'exameness de sangre', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 'PRAMOXINE HYDROCHLORIDE', 267);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (26, '9/13/2024', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 'Ecografía abdominal', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'METFORMIN HYDROCHLORIDE', 81);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (27, '7/31/2024', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 'Tomografía', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 'Paroxetine', 558);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (28, '4/9/2025', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 'Radiografía de tórax', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 'Aspirin', 227);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (29, '9/6/2025', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 'Radiografía de tórax', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'Benztropine Mesylate', 255);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (30, '9/2/2025', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 'exameness de sangre', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 'dextromethorphan hydrobromide, guaifenesin, and phenylephrine hydrochloride', 392);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (31, '3/28/2025', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 'Radiografía de tórax', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 'Acetaminophen, Caffeine, Pyrilamine maleate', 115);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (32, '12/30/2024', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 'Radiografía de tórax', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 'Nicotine Polacrilex', 527);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (33, '9/26/2024', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 'Radiografía de tórax', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 'Oxycodone Hydrochloride', 484);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (34, '12/17/2024', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 'Radiografía de tórax', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 'Bismuth subsalicylate', 468);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (35, '10/4/2024', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 'Tomografía', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 'Magnesium Oxide', 180);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (36, '6/12/2025', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'Radiografía de tórax', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 'SENNOSIDES', 548);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (37, '1/22/2025', 'Fusce consequat. Nulla nisl. Nunc nisl.', 'Ecografía abdominal', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 'CHLOROXYLENOL', 341);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (38, '4/15/2025', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 'Ecografía abdominal', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'OCTINOXATE, OXYBENZONE, PADIMATE O', 238);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (39, '1/12/2025', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 'exameness de sangre', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 'Cyclobenzaprine Hydrochloride', 349);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (40, '9/30/2024', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 'exameness de sangre', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 'NITROGEN', 342);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (41, '9/2/2025', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'Radiografía de tórax', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 'KALI PHOSPHORICUM', 269);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (42, '7/18/2025', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'Ecografía abdominal', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 'Aspirin', 581);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (43, '5/30/2025', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 'Ecografía abdominal', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 'Lithium Carbonate', 469);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (44, '1/4/2025', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 'exameness de sangre', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'Dimethicone', 46);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (45, '10/11/2024', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 'Tomografía', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 'alcohol', 46);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (46, '11/14/2024', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 'Radiografía de tórax', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 'Digoxin', 506);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (47, '11/24/2025', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'Tomografía', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 'Cabbage', 336);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (48, '3/9/2025', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 'Tomografía', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 'Duloxetine hydrochloride', 263);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (49, '12/25/2024', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'exameness de sangre', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 'OCTINOXATE', 150);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (50, '12/13/2024', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 'Tomografía', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 'Entacapone', 179);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (51, '8/21/2025', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 'Ecografía abdominal', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'medroxyprogesterone acetate', 592);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (52, '9/29/2025', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 'Radiografía de tórax', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 'Oxcarbazepine', 7);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (53, '1/22/2025', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 'Tomografía', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 'Methylphenidate Hydrochloride', 178);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (54, '10/16/2025', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'Radiografía de tórax', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 'Bismuth Subsalicylate', 169);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (55, '5/19/2025', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'Radiografía de tórax', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 'MIDODRINE HYDROCHLORIDE', 358);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (56, '12/22/2024', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 'exameness de sangre', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'Loratadine, Pseudoephedrine', 531);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (57, '4/16/2025', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 'exameness de sangre', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 'Natural Medicine', 236);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (58, '7/29/2025', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 'exameness de sangre', 'Fusce consequat. Nulla nisl. Nunc nisl.', 'Alcohol', 495);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (59, '7/27/2024', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 'Radiografía de tórax', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 'CLOTRIMAZOLE', 471);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (60, '4/22/2025', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 'Tomografía', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'Quetiapine fumarate', 575);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (61, '6/4/2025', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 'exameness de sangre', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 'Naphazoline Hydrochloride and Glycerin', 551);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (62, '6/30/2025', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 'exameness de sangre', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 'Bacitracin Zinc, Neomycin Sulfate, Polymyxin B', 558);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (63, '2/1/2025', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'Ecografía abdominal', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 'levetiracetam', 367);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (64, '10/26/2024', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 'Radiografía de tórax', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 'TRICLOSAN', 497);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (65, '8/20/2024', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'exameness de sangre', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 'benzocaine and menthol', 146);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (66, '6/3/2025', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 'exameness de sangre', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'Gabapentin', 248);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (67, '12/23/2024', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 'Radiografía de tórax', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 'SARGRAMOSTIM', 166);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (68, '5/27/2025', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 'Tomografía', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 'Alcohol', 532);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (69, '7/23/2024', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 'Tomografía', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 'Hydrogen Peroxide', 476);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (70, '11/21/2024', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 'exameness de sangre', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 'Olanzapine', 531);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (71, '5/22/2025', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 'exameness de sangre', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 'Cefdinir', 443);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (72, '4/11/2025', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 'Tomografía', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 'OCTINOXATE, OCTISALATE', 303);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (73, '8/13/2024', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 'exameness de sangre', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'DIPHENHYDRAMINE HYDROCHLORIDE', 469);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (74, '7/1/2025', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 'exameness de sangre', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'Pyrithione zinc', 309);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (75, '1/30/2025', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 'Radiografía de tórax', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 'Acetaminophen', 184);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (76, '9/26/2024', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'Ecografía abdominal', 'Fusce consequat. Nulla nisl. Nunc nisl.', 'azelaic acid', 183);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (77, '6/15/2025', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 'exameness de sangre', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'omeprazole', 579);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (78, '3/10/2025', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 'Tomografía', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 'Piroxicam', 347);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (79, '4/5/2025', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'Ecografía abdominal', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 'Diphenhydramine Hydrochloride', 266);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (80, '8/14/2024', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 'exameness de sangre', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 'CALENDULA OFFICINALIS FLOWER, SAMBUCUS NIGRA FLOWER, THUJA OCCIDENTALIS', 87);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (81, '7/25/2024', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 'Ecografía abdominal', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 'Alcohol', 422);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (82, '10/10/2025', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 'Radiografía de tórax', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 'Allergenic Extracts Alum Precipitated', 306);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (83, '11/23/2024', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 'Tomografía', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 'ropinirole', 184);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (84, '8/13/2025', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 'Radiografía de tórax', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 'IRBESARTAN', 376);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (85, '7/25/2024', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'Ecografía abdominal', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 'Titanium Dioxide and Zinc Oxide', 496);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (86, '1/9/2025', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'Ecografía abdominal', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 'Meclizine Hydrochloride', 465);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (87, '11/26/2024', 'Fusce consequat. Nulla nisl. Nunc nisl.', 'Tomografía', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 'Lorazepam', 593);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (88, '9/1/2024', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 'Tomografía', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 'sulfacetamide sodium', 348);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (89, '7/28/2024', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 'Tomografía', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 'Clopidogrel bisulfate', 114);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (90, '9/24/2025', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 'exameness de sangre', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'HYDROQUINONE', 35);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (91, '7/7/2024', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 'Ecografía abdominal', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 'Hydrogen peroxide', 39);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (92, '8/28/2024', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 'exameness de sangre', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'MENTHOL', 306);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (93, '1/12/2025', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 'exameness de sangre', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 'Promethazine hydrochloride and phenylephrine hydrochloride', 297);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (94, '9/2/2025', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 'Ecografía abdominal', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'Sodium monofluorophosphate', 109);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (95, '1/19/2025', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 'Tomografía', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 'Nifedipine', 276);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (96, '11/8/2025', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 'Ecografía abdominal', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 'risperidone', 132);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (97, '8/23/2025', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 'Ecografía abdominal', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 'Dextromethorphan Hydrobromide, Guaifenesin', 180);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (98, '8/29/2025', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 'Ecografía abdominal', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 'Poa pratensis', 285);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (99, '8/30/2025', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 'exameness de sangre', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 'AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE', 407);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (100, '1/20/2025', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 'Tomografía', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 'Sertraline Hydrochloride', 490);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (101, '7/12/2024', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 'Ecografía abdominal', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 'Avobenzone, Homosalate, Octisalate, Octocrylene, and Oxybenzone', 425);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (102, '9/5/2024', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 'Ecografía abdominal', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 'Baclofen', 440);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (103, '7/20/2024', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 'exameness de sangre', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 'arbutin', 310);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (104, '8/26/2024', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 'Radiografía de tórax', 'Fusce consequat. Nulla nisl. Nunc nisl.', 'Prednisone', 151);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (105, '2/21/2025', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 'Tomografía', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'Rabbitbush', 321);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (106, '9/11/2024', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 'exameness de sangre', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 'Nitrofurantoin Monohydrate/Macrocrystalline', 595);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (107, '1/4/2025', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 'Tomografía', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 'Polyethylene Glycol 3350', 334);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (108, '6/28/2024', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 'Tomografía', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 'carbidopa, levodopa, and entacapone', 235);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (109, '11/12/2025', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 'Ecografía abdominal', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 'Epstein-Barr Virus', 427);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (110, '6/8/2025', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 'Ecografía abdominal', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 'OXYGEN', 392);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (111, '6/30/2024', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 'exameness de sangre', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'Diphenhydramine HCl', 252);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (112, '2/13/2025', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 'Tomografía', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 'Aluminum Zirconium Tetrachlorohydrex Gly', 515);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (113, '10/16/2024', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 'Tomografía', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 'Diphenhydramine Hydrochloride', 94);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (114, '7/5/2024', 'Fusce consequat. Nulla nisl. Nunc nisl.', 'Radiografía de tórax', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 'Ampicillin', 529);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (115, '3/3/2025', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 'Tomografía', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 'DEXTROMETHORPHAN HYDROBROMIDE, GUAIFENESIN', 166);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (116, '7/25/2025', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 'Ecografía abdominal', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 'Anticoagulant Citrate Phosphate Dextrose (CPD) Solution and ADSOL Preservation Solution', 82);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (117, '9/10/2024', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 'Ecografía abdominal', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'Methocarbamol', 78);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (118, '7/25/2024', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'Tomografía', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 'thiamine hydrochloride', 385);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (119, '8/11/2024', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 'Tomografía', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 'Heparin Sodium', 592);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (120, '2/21/2025', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 'exameness de sangre', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 'SITAGLIPTIN and METFORMIN HYDROCHLORIDE', 183);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (121, '7/19/2024', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 'Radiografía de tórax', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 'ISOPROTERENOL HYDROCHLORIDE', 89);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (122, '7/22/2024', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'Radiografía de tórax', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 'Chloroprocaine Hydrochloride', 108);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (123, '5/7/2025', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 'Ecografía abdominal', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 'Amitriptyline Hydrochloride', 441);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (124, '3/28/2025', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 'Tomografía', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 'amlodipine and atorvastatin', 64);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (125, '8/9/2025', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 'Radiografía de tórax', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 'Calcipotriene', 63);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (126, '12/8/2024', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 'exameness de sangre', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 'Fluoride', 474);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (127, '7/20/2025', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 'Ecografía abdominal', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 'Lamotrigine', 391);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (128, '5/22/2025', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 'Ecografía abdominal', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 'Aconite, Apis, Cantharis, Carbolicum Acidum, Hypericum, Lachesis, Ledum, Staphysagria, Urtica Urens', 585);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (129, '4/17/2025', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'exameness de sangre', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 'Fluocinolone Acetonide', 530);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (130, '8/23/2025', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 'exameness de sangre', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 'Triclosan', 485);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (131, '3/5/2025', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 'Ecografía abdominal', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 'Balsam Peru, Castor Oil and Trypsin', 135);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (132, '5/15/2025', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'exameness de sangre', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 'Methylphenidate Hydrochloride', 207);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (133, '11/12/2025', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 'Tomografía', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 'Leucine, Phenylalanine, Lysine, Methionine, Isoleucine, Valine, Histidine, Threonine, Tryptophan, Alanine, Glycine, Arginine, Proline, Serine, Tyrosine, Sodium Acetate, Dibasic Potassium Phosphate, Ma', 314);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (134, '7/1/2024', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 'Radiografía de tórax', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 'Cantaloupe Cucumis melo', 264);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (135, '2/28/2025', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'Ecografía abdominal', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 'Cyproheptadine Hydrochloride', 77);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (136, '10/22/2025', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'Tomografía', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 'Allergenic Extracts Alum Precipitated', 250);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (137, '8/11/2024', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 'Tomografía', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 'Zinc Oxide', 519);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (138, '8/14/2025', 'Fusce consequat. Nulla nisl. Nunc nisl.', 'Ecografía abdominal', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 'Condurango, Phytolacca decandra, Aconitum napellus, Aurum metallicum, Graphites, Hydrastis canadensis, Mercurius vivus, Sulphur, Pulsatilla,', 564);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (139, '7/23/2025', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 'Tomografía', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 'Belladonna Alkaloids with Phenobartbital', 271);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (140, '3/29/2025', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 'Tomografía', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 'benazepril hydrochloride and hydrochlorothiazide', 10);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (141, '11/6/2025', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'Ecografía abdominal', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 'ETHYL ALCOHOL', 68);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (142, '11/10/2025', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 'Ecografía abdominal', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 'sumatriptan succinate', 269);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (143, '9/21/2024', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'Tomografía', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 'Sarothamnus Aurum Special Order', 557);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (144, '7/29/2025', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'Ecografía abdominal', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'abacavir sulfate', 128);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (145, '5/11/2025', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 'Ecografía abdominal', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 'cochliobolus sativus', 89);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (146, '8/5/2024', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 'Radiografía de tórax', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 'Myosotis Arvensis, Scrophularia Nodosa, Teucrium Scorodonia, Veronica Officinalis, Equisetum Arvense, Fumaria Officinalis, Geranium Robertianum, Nasturtium Aquaticum', 48);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (147, '8/6/2024', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 'exameness de sangre', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'ribavirin', 82);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (148, '7/11/2024', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 'Tomografía', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 'Diphenhydramine HCl', 432);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (149, '4/1/2025', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 'Radiografía de tórax', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 'benzoyl peroxide', 309);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (150, '7/13/2025', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'Tomografía', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 'Donepezil Hydrochloride', 185);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (151, '8/14/2025', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 'Tomografía', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 'Immune System Booster', 571);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (152, '5/23/2025', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 'Ecografía abdominal', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 'Oxycodone Hydrochloride', 471);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (153, '7/17/2025', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 'Radiografía de tórax', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 'RHODOTORULA RUBRA', 305);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (154, '4/22/2025', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 'Radiografía de tórax', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 'Glycopyrrolate', 305);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (155, '10/15/2024', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'exameness de sangre', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 'Phenylephrine hydrochloride', 476);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (156, '9/1/2024', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 'Ecografía abdominal', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 'Folic Acid', 323);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (157, '9/22/2025', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 'exameness de sangre', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 'Oxycodone Hydrochloride', 387);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (158, '4/30/2025', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 'Tomografía', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'Morphine Sulfate', 44);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (159, '2/4/2025', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 'Ecografía abdominal', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 'phenylephrine hcl, brompheniramine maleate', 386);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (160, '9/4/2025', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 'Tomografía', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 'ascorbic acid, cholecalciferol, .alpha.-tocopherol acetate, dl-, folic acid, pyridoxine hydrochloride, cyanocobalamin, biotin, calcium carbonate, ferrous fumarate, magnesium oxide, lactic acid and doconexent', 201);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (161, '6/20/2025', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 'Radiografía de tórax', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'Isopropyl Alcohol', 278);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (162, '11/23/2025', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 'Ecografía abdominal', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'Menthol, Methyl salicylate', 62);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (163, '7/23/2024', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'Tomografía', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 'medroxyprogesterone acetate', 207);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (164, '8/30/2024', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'exameness de sangre', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 'Avobenzone, Homsalate, Octisalate, Octocrylene and Oxybenzone', 156);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (165, '10/16/2025', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 'Ecografía abdominal', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'Calcium carbonate', 311);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (166, '5/16/2025', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 'Ecografía abdominal', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 'lisinopril', 546);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (167, '3/21/2025', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 'Tomografía', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 'CLOTRIMAZOLE', 243);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (168, '9/3/2025', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 'Tomografía', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 'methazolamide tablets', 338);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (169, '7/18/2024', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 'Radiografía de tórax', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'Quetiapine Fumarate', 169);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (170, '7/1/2025', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 'Tomografía', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 'Guinea Pig Epithelium', 515);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (171, '9/1/2024', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 'Radiografía de tórax', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'SODIUM FLUORIDE', 503);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (172, '6/2/2025', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 'exameness de sangre', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 'estradiol', 550);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (173, '7/13/2024', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 'exameness de sangre', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 'Clonazepam', 341);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (174, '6/18/2025', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 'Radiografía de tórax', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'Sorbitol', 382);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (175, '11/3/2024', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 'Ecografía abdominal', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 'Histamine', 342);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (176, '7/16/2025', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'exameness de sangre', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 'dimethicone', 600);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (177, '4/13/2025', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 'Ecografía abdominal', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 'Indomethacin', 143);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (178, '8/3/2024', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 'Radiografía de tórax', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'Mountain Cedar', 69);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (179, '10/9/2024', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 'Tomografía', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 'Cefadroxil', 396);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (180, '7/18/2025', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 'Radiografía de tórax', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 'Titanium Dioxide', 49);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (181, '9/13/2025', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 'exameness de sangre', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 'Cefazolin', 408);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (182, '11/27/2024', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 'Radiografía de tórax', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 'Treatment Set TS333938', 134);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (183, '3/22/2025', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 'Radiografía de tórax', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 'Avobenzone, Homosalate, Octisalate, Octocrylene, and Oxybenzone', 337);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (184, '9/16/2024', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 'Radiografía de tórax', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 'Acetaminophen', 382);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (185, '6/14/2025', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 'exameness de sangre', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 'mucor racemosus', 19);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (186, '6/29/2024', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 'Tomografía', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 'FELODIPINE', 593);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (187, '10/1/2024', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 'Tomografía', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 'cisplatin', 235);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (188, '7/27/2025', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 'Tomografía', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 'Whole Wheat Wheat Grain', 168);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (189, '4/10/2025', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 'exameness de sangre', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 'Octocrylene and Octinoxate', 142);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (190, '12/22/2024', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'Radiografía de tórax', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 'alendronate sodium', 183);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (191, '7/4/2025', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 'Radiografía de tórax', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 'conjugated estrogens and medroxyprogesterone acetate', 267);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (192, '1/25/2025', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 'Tomografía', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 'Propranolol Hydrochloride', 366);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (193, '6/8/2025', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 'Ecografía abdominal', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 'Potassium Chloride', 548);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (194, '7/15/2025', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 'exameness de sangre', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 'SIMVASTATIN', 485);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (195, '11/29/2025', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 'Tomografía', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 'Tacrolimus', 259);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (196, '11/18/2025', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 'Tomografía', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 'Diethylpropion hydrochloride', 327);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (197, '2/8/2025', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 'exameness de sangre', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 'Cefdinir', 542);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (198, '5/19/2025', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 'Tomografía', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 'Baptisia tinctoria, Echinacea, Allium cepa', 186);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (199, '8/14/2024', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 'exameness de sangre', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 'Acetaminophen, Dextromethorphan HBr, Doxylamine succinate, Phenylephrine HCl', 316);
+insert into pyd_Visitas (Id_Visita, Fecha, Sintomas, Examen, Diagnostico, Tratamiento, paciente_id) values (200, '8/21/2025', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 'Tomografía', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 'GINSENG KIANPI', 91);
 
 --Cuartos
-INSERT INTO pyd_Cuartos VALUES (101, 'Ocupado', 'Individual', 12345678);
-INSERT INTO pyd_Cuartos VALUES (102, 'Disponible', 'individual', NULL);
-INSERT INTO pyd_Cuartos VALUES (103, 'Mantenimiento', 'Individual', NULL);
-INSERT INTO pyd_Cuartos VALUES (104, 'Ocupado', 'Suite', 90345678);
-INSERT INTO pyd_Cuartos VALUES (105, 'Disponible', 'Individual', NULL);
-INSERT INTO pyd_Cuartos VALUES (106, 'Ocupado', 'Suit', 12345684);
-INSERT INTO pyd_Cuartos VALUES (107, 'Ocupado', 'Individual', 12345685);
-
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (1, 'Mantenimiento', 'Individual', 10000592);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (2, 'Disponible', 'Suite', 10000540);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (3, 'Ocupado', 'Suite', 10000764);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (4, 'Mantenimiento', 'Individual', 10000661);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (5, 'Ocupado', 'Suite', 10000829);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (6, 'Ocupado', 'Individual', 10000944);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (7, 'Mantenimiento', 'Individual', 10000842);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (8, 'Disponible', 'Individual', 10000808);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (9, 'Disponible', 'Suite', 10000906);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (10, 'Ocupado', 'Individual', 10000824);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (11, 'Disponible', 'Suite', 10000629);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (12, 'Disponible', 'Individual', 10000761);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (13, 'Ocupado', 'Individual', 10000401);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (14, 'Ocupado', 'Suite', 10000791);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (15, 'Mantenimiento', 'Individual', 10000630);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (16, 'Ocupado', 'Suite', 10000671);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (17, 'Mantenimiento', 'Individual', 10000921);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (18, 'Ocupado', 'Suite', 10000977);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (19, 'Disponible', 'Individual', 10000434);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (20, 'Disponible', 'Suite', 10000452);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (21, 'Ocupado', 'Individual', 10000567);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (22, 'Ocupado', 'Individual', 10000811);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (23, 'Disponible', 'Suite', 10000449);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (24, 'Mantenimiento', 'Suite', 10000953);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (25, 'Disponible', 'Suite', 10000781);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (26, 'Disponible', 'Individual', 10000627);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (27, 'Disponible', 'Suite', 10000427);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (28, 'Disponible', 'Suite', 10000847);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (29, 'Mantenimiento', 'Individual', 10000769);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (30, 'Ocupado', 'Suite', 10000499);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (31, 'Ocupado', 'Suite', 10000982);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (32, 'Mantenimiento', 'Individual', 10000887);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (33, 'Ocupado', 'Suite', 10000423);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (34, 'Mantenimiento', 'Individual', 10000980);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (35, 'Mantenimiento', 'Suite', 10000620);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (36, 'Ocupado', 'Individual', 10000717);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (37, 'Mantenimiento', 'Individual', 10000857);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (38, 'Mantenimiento', 'Individual', 10000624);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (39, 'Mantenimiento', 'Individual', 10000664);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (40, 'Disponible', 'Suite', 10000723);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (41, 'Ocupado', 'Suite', 10000734);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (42, 'Mantenimiento', 'Individual', 10000717);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (43, 'Mantenimiento', 'Individual', 10000702);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (44, 'Ocupado', 'Suite', 10000750);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (45, 'Mantenimiento', 'Suite', 10000462);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (46, 'Mantenimiento', 'Individual', 10000903);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (47, 'Mantenimiento', 'Suite', 10000514);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (48, 'Mantenimiento', 'Individual', 10000404);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (49, 'Disponible', 'Suite', 10000974);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (50, 'Mantenimiento', 'Suite', 10000406);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (51, 'Ocupado', 'Individual', 10000806);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (52, 'Ocupado', 'Individual', 10000784);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (53, 'Disponible', 'Individual', 10000476);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (54, 'Ocupado', 'Individual', 10000901);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (55, 'Disponible', 'Individual', 10000803);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (56, 'Disponible', 'Suite', 10000465);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (57, 'Disponible', 'Individual', 10000739);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (58, 'Mantenimiento', 'Suite', 10000427);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (59, 'Disponible', 'Individual', 10000913);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (60, 'Mantenimiento', 'Individual', 10000510);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (61, 'Ocupado', 'Individual', 10000566);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (62, 'Ocupado', 'Suite', 10000986);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (63, 'Ocupado', 'Individual', 10000436);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (64, 'Mantenimiento', 'Suite', 10000634);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (65, 'Mantenimiento', 'Individual', 10000718);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (66, 'Ocupado', 'Individual', 10000772);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (67, 'Disponible', 'Suite', 10000742);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (68, 'Ocupado', 'Individual', 10000603);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (69, 'Disponible', 'Individual', 10000803);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (70, 'Mantenimiento', 'Individual', 10000533);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (71, 'Ocupado', 'Individual', 10000796);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (72, 'Mantenimiento', 'Individual', 10000463);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (73, 'Mantenimiento', 'Individual', 10000775);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (74, 'Ocupado', 'Individual', 10000574);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (75, 'Disponible', 'Individual', 10000502);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (76, 'Ocupado', 'Suite', 10000528);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (77, 'Ocupado', 'Suite', 10000939);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (78, 'Disponible', 'Individual', 10000639);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (79, 'Disponible', 'Suite', 10000733);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (80, 'Disponible', 'Suite', 10000576);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (81, 'Mantenimiento', 'Suite', 10000798);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (82, 'Disponible', 'Suite', 10000652);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (83, 'Ocupado', 'Individual', 10000551);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (84, 'Mantenimiento', 'Individual', 10000677);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (85, 'Disponible', 'Individual', 10000480);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (86, 'Ocupado', 'Suite', 10000694);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (87, 'Disponible', 'Individual', 10000474);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (88, 'Disponible', 'Individual', 10000860);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (89, 'Disponible', 'Individual', 10000645);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (90, 'Ocupado', 'Individual', 10000406);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (91, 'Disponible', 'Suite', 10000740);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (92, 'Mantenimiento', 'Suite', 10000915);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (93, 'Ocupado', 'Suite', 10000910);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (94, 'Disponible', 'Suite', 10000943);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (95, 'Disponible', 'Individual', 10000722);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (96, 'Mantenimiento', 'Suite', 10000912);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (97, 'Ocupado', 'Individual', 10000479);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (98, 'Ocupado', 'Individual', 10000577);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (99, 'Ocupado', 'Suite', 10000801);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (100, 'Ocupado', 'Individual', 10000827);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (101, 'Mantenimiento', 'Individual', 10000962);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (102, 'Disponible', 'Suite', 10000536);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (103, 'Ocupado', 'Suite', 10000844);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (104, 'Disponible', 'Suite', 10000816);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (105, 'Ocupado', 'Suite', 10000569);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (106, 'Mantenimiento', 'Suite', 10000626);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (107, 'Ocupado', 'Suite', 10000447);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (108, 'Mantenimiento', 'Individual', 10000753);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (109, 'Disponible', 'Suite', 10000489);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (110, 'Mantenimiento', 'Individual', 10000651);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (111, 'Ocupado', 'Suite', 10000500);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (112, 'Ocupado', 'Suite', 10000601);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (113, 'Disponible', 'Individual', 10000698);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (114, 'Ocupado', 'Suite', 10000638);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (115, 'Mantenimiento', 'Suite', 10000501);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (116, 'Ocupado', 'Individual', 10000800);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (117, 'Ocupado', 'Individual', 10000807);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (118, 'Mantenimiento', 'Individual', 10000881);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (119, 'Disponible', 'Suite', 10000627);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (120, 'Mantenimiento', 'Suite', 10000801);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (121, 'Ocupado', 'Individual', 10000403);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (122, 'Mantenimiento', 'Suite', 10000763);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (123, 'Disponible', 'Suite', 10000522);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (124, 'Ocupado', 'Individual', 10000448);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (125, 'Mantenimiento', 'Individual', 10000505);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (126, 'Mantenimiento', 'Suite', 10000618);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (127, 'Disponible', 'Individual', 10000940);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (128, 'Mantenimiento', 'Individual', 10000658);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (129, 'Disponible', 'Suite', 10000773);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (130, 'Mantenimiento', 'Individual', 10000607);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (131, 'Disponible', 'Suite', 10000739);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (132, 'Ocupado', 'Suite', 10000711);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (133, 'Ocupado', 'Suite', 10000760);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (134, 'Ocupado', 'Individual', 10000793);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (135, 'Ocupado', 'Suite', 10000614);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (136, 'Disponible', 'Suite', 10000863);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (137, 'Ocupado', 'Individual', 10000985);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (138, 'Mantenimiento', 'Individual', 10000661);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (139, 'Disponible', 'Suite', 10000746);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (140, 'Disponible', 'Individual', 10000551);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (141, 'Mantenimiento', 'Suite', 10000860);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (142, 'Mantenimiento', 'Individual', 10000412);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (143, 'Mantenimiento', 'Suite', 10000852);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (144, 'Mantenimiento', 'Individual', 10000711);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (145, 'Mantenimiento', 'Individual', 10000692);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (146, 'Disponible', 'Suite', 10000620);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (147, 'Mantenimiento', 'Suite', 10000948);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (148, 'Ocupado', 'Suite', 10000849);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (149, 'Ocupado', 'Suite', 10000540);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (150, 'Mantenimiento', 'Individual', 10000441);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (151, 'Mantenimiento', 'Individual', 10000851);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (152, 'Disponible', 'Suite', 10000587);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (153, 'Mantenimiento', 'Individual', 10000545);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (154, 'Mantenimiento', 'Individual', 10000563);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (155, 'Mantenimiento', 'Suite', 10000691);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (156, 'Disponible', 'Suite', 10000837);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (157, 'Ocupado', 'Individual', 10000894);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (158, 'Ocupado', 'Individual', 10000504);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (159, 'Ocupado', 'Suite', 10000901);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (160, 'Disponible', 'Suite', 10000736);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (161, 'Mantenimiento', 'Suite', 10000557);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (162, 'Mantenimiento', 'Individual', 10000981);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (163, 'Disponible', 'Suite', 10000611);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (164, 'Ocupado', 'Suite', 10000605);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (165, 'Mantenimiento', 'Individual', 10000949);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (166, 'Disponible', 'Suite', 10000980);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (167, 'Disponible', 'Individual', 10000941);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (168, 'Disponible', 'Individual', 10000900);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (169, 'Disponible', 'Individual', 10000466);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (170, 'Ocupado', 'Suite', 10000641);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (171, 'Disponible', 'Suite', 10000905);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (172, 'Mantenimiento', 'Suite', 10000626);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (173, 'Mantenimiento', 'Suite', 10000749);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (174, 'Mantenimiento', 'Suite', 10000435);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (175, 'Disponible', 'Individual', 10000826);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (176, 'Mantenimiento', 'Individual', 10000528);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (177, 'Ocupado', 'Individual', 10000870);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (178, 'Disponible', 'Individual', 10000453);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (179, 'Mantenimiento', 'Suite', 10000951);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (180, 'Mantenimiento', 'Individual', 10000889);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (181, 'Ocupado', 'Suite', 10000547);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (182, 'Disponible', 'Suite', 10000408);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (183, 'Ocupado', 'Suite', 10000910);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (184, 'Mantenimiento', 'Suite', 10000884);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (185, 'Ocupado', 'Individual', 10000450);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (186, 'Mantenimiento', 'Individual', 10000709);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (187, 'Mantenimiento', 'Individual', 10000916);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (188, 'Ocupado', 'Individual', 10000710);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (189, 'Mantenimiento', 'Suite', 10000499);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (190, 'Disponible', 'Suite', 10000419);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (191, 'Mantenimiento', 'Individual', 10000889);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (192, 'Disponible', 'Individual', 10000855);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (193, 'Ocupado', 'Individual', 10000472);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (194, 'Ocupado', 'Individual', 10000889);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (195, 'Disponible', 'Individual', 10000842);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (196, 'Mantenimiento', 'Individual', 10000804);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (197, 'Disponible', 'Suite', 10000599);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (198, 'Disponible', 'Individual', 10000850);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (199, 'Disponible', 'Suite', 10000991);
+insert into pyd_Cuartos (N_Cuarto, Estado, Tipo_Cuarto, ocupante) values (200, 'Disponible', 'Individual', 10000549);
 --citas
-INSERT INTO pyd_Citas VALUES (7001, 12345678, SYSDATE + 0.5, SYSDATE + 1, 101, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7002, 87654321, SYSDATE + 1/24, SYSDATE + 2, 102, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7003, 90345678, SYSDATE + 3/24, SYSDATE + 3, 103, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7004,12345686, SYSDATE + 0.35,SYSDATE + 2,104,NULL,'Pendiente');
-INSERT INTO pyd_Citas VALUES (7005,12345687,SYSDATE + 0.62,SYSDATE + 3,105,NULL,'Pendiente');
-INSERT INTO pyd_Citas VALUES (7006,12345688,SYSDATE + 0.12,SYSDATE + 4,106,NULL,'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (1, 10000600, '10/1/2026', '6/23/2026', 81, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (2, 10000404, '6/30/2026', '10/5/2026', 79, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (3, 10000818, '9/27/2026', '1/7/2026', 171, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (4, 10000579, '1/1/2026', '8/24/2026', 112, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (5, 10000476, '10/12/2026', '12/16/2025', 57, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (6, 10000552, '8/20/2026', '4/7/2026', 109, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (7, 10000401, '9/16/2026', '9/18/2026', 186, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (8, 10000586, '2/19/2026', '3/8/2026', 192, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (9, 10000789, '12/30/2026', '9/22/2026', 179, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (10, 10000545, '6/22/2026', '5/1/2026', 74, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (11, 10000982, '11/20/2026', '5/11/2026', 22, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (12, 10000938, '12/11/2026', '2/25/2026', 39, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (13, 10000840, '12/8/2026', '5/20/2026', 71, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (14, 10000586, '5/22/2026', '2/4/2026', 179, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (15, 10000865, '11/14/2026', '6/8/2026', 155, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (16, 10000723, '12/28/2025', '8/6/2026', 91, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (17, 10000985, '4/17/2026', '12/23/2025', 125, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (18, 10000839, '8/29/2026', '5/24/2026', 91, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (19, 10000636, '5/24/2026', '3/2/2026', 109, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (20, 10000448, '9/10/2026', '12/14/2026', 88, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (21, 10000823, '5/13/2026', '7/2/2026', 193, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (22, 10000421, '10/11/2026', '7/29/2026', 26, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (23, 10000700, '6/12/2026', '7/13/2026', 157, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (24, 10000816, '12/24/2025', '2/27/2026', 8, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (25, 10000962, '8/24/2026', '9/26/2026', 134, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (26, 10000576, '7/14/2026', '8/23/2026', 62, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (27, 10000745, '12/9/2025', '10/31/2026', 35, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (28, 10000659, '7/5/2026', '7/17/2026', 114, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (29, 10000401, '2/8/2026', '7/9/2026', 98, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (30, 10000455, '11/6/2026', '12/25/2026', 5, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (31, 10000887, '2/19/2026', '10/23/2026', 98, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (32, 10000929, '1/23/2026', '12/14/2025', 33, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (33, 10000648, '8/16/2026', '4/9/2026', 174, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (34, 10000905, '12/23/2025', '12/2/2025', 106, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (35, 10000465, '1/27/2026', '5/27/2026', 128, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (36, 10000540, '3/12/2026', '4/1/2026', 38, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (37, 10000834, '3/13/2026', '6/5/2026', 180, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (38, 10000818, '11/28/2026', '2/17/2026', 32, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (39, 10000531, '2/1/2026', '7/5/2026', 124, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (40, 10000763, '7/9/2026', '7/18/2026', 102, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (41, 10000570, '10/27/2026', '11/20/2026', 61, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (42, 10000988, '8/11/2026', '5/26/2026', 181, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (43, 10000972, '12/20/2025', '9/4/2026', 2, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (44, 10000940, '1/13/2026', '9/14/2026', 105, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (45, 10000490, '2/17/2026', '12/4/2026', 191, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (46, 10000410, '12/15/2026', '8/29/2026', 191, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (47, 10000460, '6/20/2026', '12/21/2025', 32, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (48, 10000682, '6/3/2026', '4/10/2026', 1, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (49, 10000934, '6/2/2026', '3/31/2026', 17, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (50, 10000559, '1/30/2026', '3/6/2026', 27, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (51, 10000853, '12/1/2026', '3/4/2026', 187, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (52, 10000711, '3/2/2026', '12/24/2026', 2, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (53, 10000885, '2/19/2026', '4/16/2026', 38, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (54, 10000959, '12/7/2026', '6/15/2026', 32, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (55, 10000473, '7/20/2026', '3/6/2026', 200, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (56, 10000772, '9/4/2026', '2/1/2026', 200, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (57, 10000971, '5/21/2026', '12/11/2025', 22, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (58, 10000829, '2/11/2026', '10/30/2026', 5, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (59, 10000764, '7/27/2026', '2/1/2026', 79, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (60, 10000899, '1/26/2026', '1/3/2026', 101, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (61, 10000456, '1/3/2026', '9/13/2026', 172, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (62, 10000562, '6/7/2026', '1/14/2026', 197, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (63, 10000783, '12/3/2026', '12/13/2025', 182, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (64, 10000908, '12/12/2026', '12/15/2026', 189, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (65, 10000785, '12/26/2026', '12/24/2026', 171, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (66, 10000713, '5/26/2026', '11/25/2026', 178, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (67, 10000452, '11/27/2026', '9/23/2026', 138, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (68, 10000615, '12/7/2026', '12/2/2025', 116, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (69, 10000997, '7/24/2026', '11/4/2026', 154, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (70, 10000437, '8/2/2026', '6/17/2026', 146, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (71, 10000416, '7/31/2026', '12/22/2025', 35, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (72, 10000527, '11/30/2026', '3/21/2026', 193, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (73, 10000799, '5/13/2026', '3/16/2026', 33, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (74, 10000643, '3/13/2026', '12/20/2025', 6, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (75, 10000804, '3/7/2026', '5/4/2026', 117, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (76, 10000671, '10/19/2026', '11/15/2026', 112, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (77, 10000508, '9/18/2026', '1/10/2026', 87, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (78, 10000598, '9/18/2026', '1/2/2026', 187, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (79, 10000531, '8/23/2026', '8/3/2026', 112, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (80, 10000476, '9/3/2026', '3/25/2026', 136, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (81, 10000651, '10/29/2026', '12/5/2025', 36, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (82, 10000877, '6/12/2026', '4/26/2026', 175, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (83, 10000716, '6/7/2026', '12/11/2026', 121, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (84, 10000586, '12/8/2025', '3/16/2026', 193, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (85, 10000515, '4/28/2026', '1/17/2026', 143, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (86, 10000433, '12/27/2025', '2/2/2026', 79, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (87, 10000787, '4/5/2026', '10/10/2026', 148, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (88, 10000578, '11/22/2026', '8/7/2026', 75, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (89, 10000937, '8/10/2026', '10/17/2026', 170, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (90, 10000536, '2/15/2026', '8/8/2026', 95, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (91, 10000738, '3/5/2026', '11/13/2026', 136, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (92, 10000918, '12/29/2026', '11/29/2026', 155, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (93, 10000604, '7/14/2026', '5/26/2026', 53, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (94, 10000631, '8/18/2026', '7/15/2026', 136, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (95, 10000988, '10/24/2026', '4/7/2026', 18, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (96, 10000803, '12/13/2026', '1/27/2026', 54, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (97, 10000937, '8/10/2026', '3/20/2026', 24, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (98, 10000400, '6/18/2026', '9/4/2026', 3, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (99, 10000537, '5/29/2026', '8/16/2026', 29, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (100, 10000976, '9/10/2026', '1/10/2026', 11, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (101, 10000514, '4/28/2026', '2/21/2026', 195, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (102, 10000908, '8/23/2026', '12/23/2026', 140, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (103, 10000971, '6/27/2026', '3/27/2026', 5, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (104, 10000562, '6/2/2026', '3/10/2026', 111, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (105, 10000492, '1/6/2026', '11/14/2026', 47, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (106, 10000656, '7/26/2026', '1/15/2026', 95, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (107, 10000805, '9/14/2026', '1/28/2026', 66, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (108, 10000537, '1/1/2026', '4/24/2026', 32, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (109, 10000657, '7/26/2026', '1/30/2026', 124, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (110, 10000788, '5/10/2026', '6/9/2026', 129, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (111, 10000675, '4/7/2026', '10/8/2026', 143, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (112, 10000843, '8/5/2026', '7/1/2026', 175, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (113, 10000878, '4/10/2026', '7/16/2026', 182, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (114, 10000960, '11/22/2026', '12/17/2026', 81, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (115, 10000474, '7/8/2026', '12/6/2026', 143, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (116, 10000889, '12/24/2025', '9/18/2026', 74, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (117, 10000675, '10/26/2026', '7/20/2026', 47, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (118, 10000835, '7/26/2026', '2/21/2026', 142, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (119, 10000903, '12/24/2025', '3/11/2026', 10, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (120, 10000983, '7/21/2026', '8/29/2026', 138, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (121, 10000730, '10/28/2026', '1/22/2026', 78, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (122, 10000721, '7/17/2026', '12/19/2026', 180, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (123, 10000859, '6/6/2026', '12/18/2025', 106, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (124, 10000698, '5/22/2026', '12/5/2026', 93, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (125, 10000554, '11/27/2026', '7/20/2026', 111, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (126, 10000904, '5/24/2026', '11/5/2026', 113, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (127, 10000712, '7/22/2026', '10/24/2026', 34, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (128, 10000587, '12/12/2026', '2/7/2026', 77, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (129, 10000967, '2/21/2026', '11/17/2026', 29, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (130, 10000586, '2/13/2026', '5/12/2026', 149, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (131, 10000908, '3/3/2026', '4/25/2026', 49, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (132, 10000438, '5/1/2026', '2/12/2026', 47, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (133, 10000829, '2/19/2026', '4/14/2026', 196, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (134, 10000631, '1/22/2026', '2/25/2026', 21, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (135, 10000437, '7/15/2026', '4/9/2026', 129, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (136, 10000826, '12/15/2026', '12/3/2025', 78, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (137, 10000869, '5/2/2026', '8/1/2026', 64, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (138, 10000463, '1/24/2026', '11/2/2026', 120, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (139, 10000504, '12/22/2025', '6/25/2026', 162, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (140, 10000938, '7/10/2026', '5/28/2026', 159, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (141, 10000480, '12/26/2026', '8/19/2026', 176, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (142, 10000921, '8/27/2026', '3/10/2026', 137, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (143, 10000686, '8/21/2026', '12/2/2025', 17, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (144, 10000623, '5/7/2026', '3/3/2026', 25, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (145, 10000658, '9/26/2026', '11/26/2026', 37, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (146, 10000734, '10/4/2026', '12/5/2026', 194, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (147, 10000592, '4/6/2026', '9/3/2026', 198, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (148, 10000949, '1/1/2026', '10/16/2026', 174, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (149, 10000554, '11/12/2026', '8/17/2026', 107, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (150, 10000815, '7/4/2026', '1/23/2026', 120, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (151, 10000961, '8/19/2026', '8/7/2026', 29, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (152, 10000608, '11/14/2026', '2/3/2026', 166, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (153, 10000813, '12/18/2026', '3/24/2026', 151, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (154, 10000457, '12/7/2026', '12/21/2026', 90, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (155, 10000853, '7/21/2026', '8/21/2026', 166, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (156, 10000529, '9/21/2026', '4/22/2026', 85, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (157, 10000544, '10/2/2026', '12/16/2025', 15, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (158, 10000434, '12/11/2026', '11/1/2026', 45, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (159, 10000713, '1/11/2026', '7/21/2026', 56, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (160, 10000972, '9/3/2026', '11/26/2026', 104, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (161, 10000561, '4/24/2026', '3/1/2026', 53, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (162, 10000588, '4/24/2026', '4/29/2026', 24, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (163, 10000825, '8/23/2026', '2/21/2026', 126, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (164, 10000706, '6/25/2026', '5/13/2026', 111, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (165, 10000506, '7/13/2026', '11/4/2026', 22, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (166, 10000890, '12/25/2025', '9/21/2026', 43, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (167, 10000734, '1/18/2026', '7/10/2026', 109, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (168, 10000966, '6/12/2026', '6/20/2026', 120, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (169, 10000882, '9/10/2026', '4/3/2026', 166, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (170, 10000755, '5/18/2026', '7/26/2026', 177, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (171, 10000962, '8/29/2026', '11/29/2026', 196, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (172, 10000495, '10/4/2026', '6/23/2026', 71, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (173, 10000500, '3/15/2026', '11/10/2026', 129, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (174, 10000796, '8/13/2026', '12/16/2026', 186, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (175, 10000624, '5/12/2026', '8/7/2026', 141, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (176, 10000808, '12/12/2025', '12/28/2025', 160, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (177, 10000713, '10/19/2026', '1/8/2026', 115, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (178, 10000560, '9/16/2026', '2/17/2026', 10, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (179, 10000884, '9/18/2026', '10/18/2026', 92, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (180, 10000450, '6/23/2026', '8/18/2026', 139, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (181, 10000489, '12/30/2026', '8/1/2026', 64, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (182, 10000920, '9/26/2026', '2/16/2026', 123, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (183, 10000606, '10/21/2026', '9/29/2026', 125, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (184, 10000406, '8/25/2026', '11/22/2026', 31, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (185, 10000751, '7/3/2026', '7/13/2026', 147, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (186, 10000730, '8/22/2026', '3/28/2026', 194, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (187, 10000985, '4/6/2026', '4/11/2026', 29, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (188, 10000584, '5/28/2026', '4/6/2026', 199, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (189, 10000654, '2/11/2026', '7/7/2026', 57, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (190, 10000808, '12/21/2025', '7/1/2026', 89, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (191, 10000495, '12/8/2026', '10/22/2026', 157, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (192, 10000482, '7/1/2026', '4/30/2026', 63, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (193, 10000687, '8/16/2026', '10/29/2026', 6, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (194, 10000730, '2/8/2026', '5/25/2026', 51, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (195, 10000413, '5/26/2026', '2/18/2026', 171, null, 'Cancelada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (196, 10000460, '3/24/2026', '9/14/2026', 80, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (197, 10000422, '7/9/2026', '2/4/2026', 82, null, 'Realizada');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (198, 10000443, '4/9/2026', '7/30/2026', 4, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (199, 10000557, '1/5/2026', '12/5/2026', 99, null, 'Pendiente');
+insert into pyd_Citas (Id_Cita, Id_Paciente, Hora_Cita, Fecha_Cita, Id_Doctor, Diagnostico, Estado_Cita) values (200, 10000849, '2/22/2026', '9/2/2026', 50, null, 'Realizada');
 
 --pqrs
 INSERT INTO pyd_PQRS VALUES (8001, 'Demora en atención', 'Servicio', 'Paciente reporta larga espera');
@@ -2071,356 +3245,3 @@ INSERT INTO pyd_PQRS VALUES (8003, 'Felicitación al personal', 'Felicitación',
 INSERT INTO pyd_PQRS VALUES (8004, 'Retraso en la asignación de cita', 'Citas médicas', 'El paciente reporta demoras en la programación.');
 INSERT INTO pyd_PQRS VALUES (8005, 'Inconformidad con el trato recibido', 'Atención al usuario', 'El paciente manifiesta mal servicio.');
 INSERT INTO pyd_PQRS VALUES (8006, 'Error en datos personales', 'Actualización de datos', 'Solicita corrección en su información.');
-
--- 1) pyd_Personas (9 registros: 12345690 .. 12345698)
-INSERT INTO pyd_Personas VALUES (12345690,'T.I','Martín','Andrés','Serrano','Paz','martinserrano0@mail.com');
-INSERT INTO pyd_Personas VALUES (12345691,'C.C','Andrea','Lucía','Muñoz','Gómez','andreamunoz1@mail.com');
-INSERT INTO pyd_Personas VALUES (12345692,'C.C','Diego','Fernando','Herrera','Suárez','diegoherrera2@mail.com');
-INSERT INTO pyd_Personas VALUES (12345693,'C.C','Camila','María','Ortiz','Rincón','camilaortiz3@mail.com');
-INSERT INTO pyd_Personas VALUES (12345694,'C.C','Javier','Luis','Pacheco','Navarro','javierpacheco4@mail.com');
-INSERT INTO pyd_Personas VALUES (12345695,'C.C','Sofía','Elena','Caballero','Castillo','sofiacaballero5@mail.com');
-INSERT INTO pyd_Personas VALUES (12345696,'C.C','Andrés','Mateo','Vargas','Londoño','andresvargas6@mail.com');
-INSERT INTO pyd_Personas VALUES (12345697,'C.C','Lucía','Isabel','Peña','Moreno','luciapena7@mail.com');
-INSERT INTO pyd_Personas VALUES (12345698,'C.C','Tomás','Alejandro','Díaz','Carrillo','tomasdiaz8@mail.com');
-
--- 2) pyd_Doctores (3 doctores). Usan 3 personas C.C (12345691, 12345692, 12345693)
-INSERT INTO pyd_Doctores VALUES (104, 'Cardiología', 'Cardiología', 2, 12345691);
-INSERT INTO pyd_Doctores VALUES (105, 'Medicina General', 'Urgencias', 3, 12345692);
-INSERT INTO pyd_Doctores VALUES (106, 'Ortopedia', 'Ortopedia', 1, 12345693);
-
--- 3) pyd_Enfermeras (3 enfermeras). Usan 3 personas C.C distintas (12345694,12345695,12345696)
-INSERT INTO pyd_Enfermeras VALUES (204, (SELECT Area FROM (SELECT 'UCI' AS Area FROM DUAL) WHERE ROWNUM=1), 'Medicina Crítica', 1, 12345694);
-INSERT INTO pyd_Enfermeras VALUES (205, (SELECT Area FROM (SELECT 'Urgencias' AS Area FROM DUAL) WHERE ROWNUM=1), 'Fisioterapia', 2, 12345695);
-INSERT INTO pyd_Enfermeras VALUES (206, (SELECT Area FROM (SELECT 'Rehabilitación' AS Area FROM DUAL) WHERE ROWNUM=1), 'Ginecología', 3, 12345696);
-
--- 4) pyd_Pacientes (4 pacientes). Id_Paciente inicia en 3006 (continuando desde 3005)
-INSERT INTO pyd_Pacientes VALUES (3006, 1, 'Sanitas', 12345697);
-INSERT INTO pyd_Pacientes VALUES (3007, 2, 'Sura', 12345698);
-INSERT INTO pyd_Pacientes VALUES (3008, 3, 'Compensar', 12345690);
-INSERT INTO pyd_Pacientes VALUES (3009, 4, 'Colsubsidio', 12345694);
-
--- 5) pyd_HistoriasClinicas (Id_Historia = Id_Paciente)
-INSERT INTO pyd_HistoriasClinicas VALUES (3006, 'Sanitas', 'EPS Sanitas');
-INSERT INTO pyd_HistoriasClinicas VALUES (3007, 'Sura', 'EPS Sura');
-INSERT INTO pyd_HistoriasClinicas VALUES (3008, 'Compensar', 'EPS Compensar');
-INSERT INTO pyd_HistoriasClinicas VALUES (3009, 'Colsubsidio', 'EPS Colsubsidio');
-
--- 6) pyd_Visitas (4 visitas, Id_Visita desde 5009)
-INSERT INTO pyd_Visitas VALUES (5009, SYSDATE - 6, 'Dolor lumbar', NULL, 'Lumbalgia', 'Analgésicos y reposo', 3006);
-INSERT INTO pyd_Visitas VALUES (5010, SYSDATE - 4, 'Fiebre y tos', NULL, 'Infección respiratoria', 'Antibiótico oral', 3007);
-INSERT INTO pyd_Visitas VALUES (5011, SYSDATE - 2, 'Dolor articular', NULL, 'Tendinitis', 'Fisioterapia', 3008);
-INSERT INTO pyd_Visitas VALUES (5012, SYSDATE - 1, 'Mareos', NULL, 'Hipoglucemia', 'Hidratación y control', 3009);
-
--- 7) pyd_Cuartos (5 cuartos, N_Cuarto desde 111). ocupante = Numero_doc si Ocupado
-INSERT INTO pyd_Cuartos VALUES (111, 'Disponible', 'Individual', NULL);
-INSERT INTO pyd_Cuartos VALUES (112, 'Ocupado', 'Suit', 12345697);
-INSERT INTO pyd_Cuartos VALUES (113, 'Disponible', 'Individual', NULL);
-INSERT INTO pyd_Cuartos VALUES (114, 'Ocupado', 'Suit', 12345698);
-INSERT INTO pyd_Cuartos VALUES (115, 'Ocupado', 'Individual', 12345690);
-
--- 8) pyd_Citas (5 citas, Id_Cita desde 7010). Id_Paciente = Numero_doc
-INSERT INTO pyd_Citas VALUES (7010, 12345697, SYSDATE + 0.25, SYSDATE + 2, 104, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7011, 12345698, SYSDATE + 0.45, SYSDATE + 3, 105, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7012, 12345690, SYSDATE + 0.60, SYSDATE + 4, 106, NULL, 'Realizada');
-INSERT INTO pyd_Citas VALUES (7013, 12345694, SYSDATE + 0.12, SYSDATE + 5, 104, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7014, 12345691, SYSDATE + 0.80, SYSDATE + 6, 105, NULL, 'Pendiente');
-
--- 9) pyd_PQRS (5 registros, Id_PQR desde 8010)
-INSERT INTO pyd_PQRS VALUES (8010, 'Demora en la atención', 'Servicio', 'Paciente reporta espera prolongada en urgencias');
-INSERT INTO pyd_PQRS VALUES (8011, 'Falla en la facturación', 'Administrativo', 'Cobro duplicado en la factura del servicio');
-INSERT INTO pyd_PQRS VALUES (8012, 'Condiciones de la habitación', 'Infraestructura', 'Sollozos de humedad en el cuarto asignado');
-INSERT INTO pyd_PQRS VALUES (8013, 'Queja por trato', 'Atención al usuario', 'Paciente considera que el trato no fue el adecuado');
-INSERT INTO pyd_PQRS VALUES (8014, 'Solicitud de cambio de cita', 'Agendamiento', 'Paciente solicita reagendar por motivos personales');
-
----------------------------------------------------------
--- 1) pyd_Personas (3 nuevas personas: 12345699–12345701)
----------------------------------------------------------
-INSERT INTO pyd_Personas VALUES (12345699,'C.C','Paula','Andrea','López','Cárdenas','paulalopez9@mail.com');
-INSERT INTO pyd_Personas VALUES (12345700,'T.I','Samuel','Esteban','Rojas','Pardo','samuelrojas10@mail.com');
-INSERT INTO pyd_Personas VALUES (12345701,'C.C','Valentina','Sofía','Cano','Rivas','valentinacano11@mail.com');
-
----------------------------------------------------------
--- 2) pyd_Doctores (1 doctor nuevo: 107)
--- Persona asociada: 12345699
----------------------------------------------------------
-INSERT INTO pyd_Doctores VALUES (107, 'Neurología', 'Consulta Externa', 2, 12345699);
-
----------------------------------------------------------
--- 3) pyd_Enfermeras (1 enfermera nueva: 207)
--- Persona asociada: 12345700
----------------------------------------------------------
-INSERT INTO pyd_Enfermeras VALUES (207, 'Hospitalización', 'Cuidado General', 1, 12345700);
-
----------------------------------------------------------
--- 4) pyd_Pacientes (2 pacientes nuevos: 3010–3011)
--- Usan documentos 12345700 y 12345701
----------------------------------------------------------
-INSERT INTO pyd_Pacientes VALUES (3010, 5, 'Sanitas', 12345700);
-INSERT INTO pyd_Pacientes VALUES (3011, 6, 'Sura', 12345701);
-
----------------------------------------------------------
--- 5) pyd_HistoriasClinicas (Id_Historia = Id_Paciente)
----------------------------------------------------------
-INSERT INTO pyd_HistoriasClinicas VALUES (3010, 'Sanitas', 'Paciente afiliado a EPS Sanitas');
-INSERT INTO pyd_HistoriasClinicas VALUES (3011, 'Sura', 'Paciente afiliado a EPS Sura');
-
----------------------------------------------------------
--- 6) pyd_Visitas (2 nuevas visitas: 5013–5014)
----------------------------------------------------------
-INSERT INTO pyd_Visitas VALUES (5013, SYSDATE - 3, 'Dolor de cabeza', NULL, 'Migraña', 'Analgésicos + reposo', 3010);
-INSERT INTO pyd_Visitas VALUES (5014, SYSDATE - 1, 'Tos seca', NULL, 'Resfriado común', 'Jarabe antitusivo', 3011);
-
----------------------------------------------------------
--- 7) pyd_Cuartos (3 nuevos cuartos: 116–118)
--- ocupante = Numero_doc si Ocupado
----------------------------------------------------------
-INSERT INTO pyd_Cuartos VALUES (116, 'Disponible', 'Individual', NULL);
-INSERT INTO pyd_Cuartos VALUES (117, 'Ocupado', 'Suit', 12345700);
-INSERT INTO pyd_Cuartos VALUES (118, 'Ocupado', 'Individual', 12345701);
-
----------------------------------------------------------
--- 8) pyd_Citas (3 nuevas citas: 7015–7017)
--- Id_Paciente = Numero_doc
--- Doctor puede ser 104, 105, 106 o 107
----------------------------------------------------------
-INSERT INTO pyd_Citas VALUES (7015, 12345700, SYSDATE + 0.30, SYSDATE + 2, 104, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7016, 12345701, SYSDATE + 0.55, SYSDATE + 3, 107, NULL, 'Realizada');
-INSERT INTO pyd_Citas VALUES (7017, 12345699, SYSDATE + 0.75, SYSDATE + 4, 105, NULL, 'Pendiente');
-
----------------------------------------------------------
--- 9) pyd_PQRS (3 nuevas PQRS: 8015–8017)
----------------------------------------------------------
-INSERT INTO pyd_PQRS VALUES (8015, 'Queja por ruido', 'Infraestructura', 'El paciente reporta ruidos molestos cerca del cuarto.');
-INSERT INTO pyd_PQRS VALUES (8016, 'Solicita copia de historia', 'Documentación', 'Paciente pide copia completa de su historia clínica.');
-INSERT INTO pyd_PQRS VALUES (8017, 'Mala atención telefónica', 'Servicio al cliente', 'Paciente afirma que no atendieron correctamente la llamada.');
-
----------------------------------------------------------
--- 1) pyd_Personas (3 nuevas: 12345702–12345704)
----------------------------------------------------------
-INSERT INTO pyd_Personas VALUES (12345702,'C.C','María','Fernanda','García','Suárez','mariagarcia12@mail.com');
-INSERT INTO pyd_Personas VALUES (12345703,'C.C','Julián','David','Torres','Méndez','juliantorres13@mail.com');
-INSERT INTO pyd_Personas VALUES (12345704,'T.I','Daniela','Isabel','Ramírez','Ortega','danielaramirez14@mail.com');
-
----------------------------------------------------------
--- 2) pyd_Doctores (1 nuevo: 108)
--- Persona con C.C → 12345702
----------------------------------------------------------
-INSERT INTO pyd_Doctores VALUES (108, 'Ortopedia', 'Cirugía', 3, 12345702);
-
----------------------------------------------------------
--- 3) pyd_Enfermeras (1 nueva: 208)
--- Documento no usado por doctores → 12345703
----------------------------------------------------------
-INSERT INTO pyd_Enfermeras VALUES (208, 'Urgencias', 'Medicina General', 2, 12345703);
-
----------------------------------------------------------
--- 4) pyd_Pacientes (2 nuevos: 3012–3013)
--- Usan documentos restantes 12345703 y 12345704
----------------------------------------------------------
-INSERT INTO pyd_Pacientes VALUES (3012, 1, 'Sanitas', 12345703);
-INSERT INTO pyd_Pacientes VALUES (3013, 2, 'Sura', 12345704);
-
----------------------------------------------------------
--- 5) pyd_HistoriasClinicas (Id = Id_Paciente)
----------------------------------------------------------
-INSERT INTO pyd_HistoriasClinicas VALUES (3012, 'Sanitas', 'Paciente afiliado a EPS Sanitas');
-INSERT INTO pyd_HistoriasClinicas VALUES (3013, 'Sura', 'Paciente afiliado a EPS Sura');
-
----------------------------------------------------------
--- 6) pyd_Visitas (2 nuevas: 5015–5016)
----------------------------------------------------------
-INSERT INTO pyd_Visitas VALUES (5015, SYSDATE - 4, 'Dolor abdominal', NULL, 'Gastritis', 'Antiácidos + dieta', 3012);
-INSERT INTO pyd_Visitas VALUES (5016, SYSDATE - 1, 'Fiebre y escalofríos', NULL, 'Infección viral', 'Acetaminofén + hidratación', 3013);
-
----------------------------------------------------------
--- 7) pyd_Cuartos (3 nuevos: 119–121)
----------------------------------------------------------
-INSERT INTO pyd_Cuartos VALUES (119, 'Disponible', 'Individual', NULL);
-INSERT INTO pyd_Cuartos VALUES (120, 'Ocupado', 'Suit', 12345703);
-INSERT INTO pyd_Cuartos VALUES (121, 'Ocupado', 'Individual', 12345704);
-
----------------------------------------------------------
--- 8) pyd_Citas (3 nuevas: 7018–7020)
--- Id_Paciente = Numero_doc
----------------------------------------------------------
-INSERT INTO pyd_Citas VALUES (7018, 12345703, SYSDATE + 0.25, SYSDATE + 2, 108, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7019, 12345704, SYSDATE + 0.60, SYSDATE + 3, 106, NULL, 'Realizada');
-INSERT INTO pyd_Citas VALUES (7020, 12345702, SYSDATE + 0.80, SYSDATE + 4, 105, NULL, 'Pendiente');
-
----------------------------------------------------------
--- 9) pyd_PQRS (3 nuevas: 8018–8020)
----------------------------------------------------------
-INSERT INTO pyd_PQRS VALUES (8018, 'Solicitud de cambio de cuarto', 'Infraestructura', 'El paciente solicita traslado por ruido.');
-INSERT INTO pyd_PQRS VALUES (8019, 'Felicitación por buena atención', 'Servicio al cliente', 'Paciente destaca amabilidad del personal.');
-INSERT INTO pyd_PQRS VALUES (8020, 'Demora en entrega de medicamentos', 'Farmacia', 'Paciente reporta retraso en dispensación.');
-
--- ==========================
--- 1) pyd_Personas (9 personas)
--- Numero_doc 12345705 .. 12345713
--- ==========================
-INSERT INTO pyd_Personas VALUES (12345705,'C.C','Marcos','Andrés','Sánchez','Pérez','marcossanchez0@mail.com');
-INSERT INTO pyd_Personas VALUES (12345706,'C.C','Amanda','Lucía','Vega','González','amandavega1@mail.com');
-INSERT INTO pyd_Personas VALUES (12345707,'C.C','Rodrigo','Esteban','Ruiz','Castro','rodrigoruiz2@mail.com');
-INSERT INTO pyd_Personas VALUES (12345708,'C.C','Gabriela','Isabel','Cruz','Martín','gabrielacruz3@mail.com');
-INSERT INTO pyd_Personas VALUES (12345709,'C.C','Héctor','Luis','Medina','Rivas','hectormedina4@mail.com');
-INSERT INTO pyd_Personas VALUES (12345710,'C.C','Estefanía','María','Pinto','Lara','estefaniapinto5@mail.com');
-INSERT INTO pyd_Personas VALUES (12345711,'C.C','Jorge','Daniel','Sarmiento','Ruano','jorgesarmiento6@mail.com');
-INSERT INTO pyd_Personas VALUES (12345712,'C.C','Natalia','Soledad','Fuentes','Ocampo','nataliafuentes7@mail.com');
-INSERT INTO pyd_Personas VALUES (12345713,'C.C','Andrés','Samuel','Molina','Zapata','andresmolina8@mail.com');
-
--- ==========================
--- 2) pyd_Doctores (3 doctores)
--- Id_Doctor 109..111, usan 3 docs entre las personas (12345705..12345707)
--- ==========================
-INSERT INTO pyd_Doctores VALUES (109, 'Cardiología', 'Cardiología', 2, 12345705);
-INSERT INTO pyd_Doctores VALUES (110, 'Pediatría', 'Pediatría', 1, 12345706);
-INSERT INTO pyd_Doctores VALUES (111, 'Medicina General', 'Urgencias', 3, 12345707);
-
--- ==========================
--- 3) pyd_Enfermeras (3 enfermeras)
--- Id_Enfermera 209..211, usan 3 distintas (12345708..12345710)
--- ==========================
-INSERT INTO pyd_Enfermeras VALUES (209, 3, 'Medicina Crítica', 1, 12345708);
-INSERT INTO pyd_Enfermeras VALUES (210, 4, 'Fisioterapia', 2, 12345709);
-INSERT INTO pyd_Enfermeras VALUES (211, 5, 'Ginecología', 4, 12345710);
-
--- ==========================
--- 4) pyd_Pacientes (3 pacientes)
--- Id_Paciente 3014..3016, Numero_doc usan 12345711..12345713 (distintos)
--- ==========================
-INSERT INTO pyd_Pacientes VALUES (3014, 1, 'Sanitas', 12345711);
-INSERT INTO pyd_Pacientes VALUES (3015, 2, 'Sura', 12345712);
-INSERT INTO pyd_Pacientes VALUES (3016, 3, 'Compensar', 12345713);
-
--- ==========================
--- 5) pyd_HistoriasClinicas (Id_Historia = Id_Paciente)
--- ==========================
-INSERT INTO pyd_HistoriasClinicas VALUES (3014, 'Sanitas', 'EPS Sanitas');
-INSERT INTO pyd_HistoriasClinicas VALUES (3015, 'Sura', 'EPS Sura');
-INSERT INTO pyd_HistoriasClinicas VALUES (3016, 'Compensar', 'EPS Compensar');
-
--- ==========================
--- 6) pyd_Visitas (3 visitas; Id_Visita 5017..5019)
--- Fecha = SYSDATE - random days; Sintomas/Examen/Diagnostico/Tratamiento inventados; Id_Historia uno de los anteriores
--- ==========================
-INSERT INTO pyd_Visitas VALUES (5017, SYSDATE - 7, 'Dolor lumbar', 'Rayos X columna', 'Lumbalgia', 'Analgésicos y reposo', 3014);
-INSERT INTO pyd_Visitas VALUES (5018, SYSDATE - 4, 'Fiebre y malestar', 'Hemograma completo', 'Infección viral', 'Antipiréticos y reposo', 3015);
-INSERT INTO pyd_Visitas VALUES (5019, SYSDATE - 1, 'Tos seca persistente', 'Radiografía de tórax', 'Bronquitis leve', 'Jarabe y aerosoles', 3016);
-
--- ==========================
--- 7) pyd_Cuartos (5 cuartos; N_Cuarto 122..126)
--- ocupante = Numero_doc si Estado = 'Ocupado'
--- ==========================
-INSERT INTO pyd_Cuartos VALUES (122, 'Disponible', 'Individual', NULL);
-INSERT INTO pyd_Cuartos VALUES (123, 'Ocupado', 'Suit', 12345711);
-INSERT INTO pyd_Cuartos VALUES (124, 'Disponible', 'Individual', NULL);
-INSERT INTO pyd_Cuartos VALUES (125, 'Ocupado', 'Suit', 12345712);
-INSERT INTO pyd_Cuartos VALUES (126, 'Ocupado', 'Individual', 12345713);
-
--- ==========================
--- 8) pyd_Citas (5 citas; Id_Cita 7021..7025)
--- Id_Paciente = Numero_doc (del paciente), Hora = SYSDATE + frac (<1), Fecha = SYSDATE + integer >=1
--- Doctores elegidos entre 109..111
--- Diagnostico = NULL; Estado_Cita ∈ {'Pendiente','Realizada'}
--- ==========================
-INSERT INTO pyd_Citas VALUES (7021, 12345711, SYSDATE + 0.25, SYSDATE + 2, 109, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7022, 12345712, SYSDATE + 0.50, SYSDATE + 3, 110, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7023, 12345713, SYSDATE + 0.75, SYSDATE + 4, 111, NULL, 'Realizada');
-INSERT INTO pyd_Citas VALUES (7024, 12345711, SYSDATE + 0.10, SYSDATE + 5, 109, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7025, 12345712, SYSDATE + 0.60, SYSDATE + 6, 110, NULL, 'Pendiente');
-
--- ==========================
--- 9) pyd_PQRS (5 registros; Id_PQR 8021..8025)
--- ==========================
-INSERT INTO pyd_PQRS VALUES (8021, 'Demora en entrega de resultados', 'Laboratorio', 'Paciente reporta retraso en resultados de laboratorio');
-INSERT INTO pyd_PQRS VALUES (8022, 'Ruido en el pasillo', 'Infraestructura', 'Paciente solicita cambio de habitación por ruido');
-INSERT INTO pyd_PQRS VALUES (8023, 'Doble cobro', 'Administrativo', 'Paciente indica cobro duplicado en facturación');
-INSERT INTO pyd_PQRS VALUES (8024, 'Falta de información sobre procedimiento', 'Información', 'Paciente solicita mejor explicación del procedimiento');
-INSERT INTO pyd_PQRS VALUES (8025, 'Solicita historial médico', 'Documentación', 'Paciente pide copia de su historial clínico');
--- ==========================
--- 1) pyd_Personas (9 personas nuevas)
--- Numero_doc 12345714 .. 12345722
--- ==========================
-INSERT INTO pyd_Personas VALUES (12345714,'C.C','Laura','María','Gómez','Ríos','lauragomez@mail.com');
-INSERT INTO pyd_Personas VALUES (12345715,'C.C','Felipe','Andrés','Torres','Mora','felipetorres@mail.com');
-INSERT INTO pyd_Personas VALUES (12345716,'C.C','Daniela','Sofía','Ramírez','Delgado','danielaramirez@mail.com');
-INSERT INTO pyd_Personas VALUES (12345717,'C.C','Julián','Mateo','Pardo','Jiménez','julianpardo@mail.com');
-INSERT INTO pyd_Personas VALUES (12345718,'C.C','Carolina','Isabel','Barrera','Soto','carolinabarrera@mail.com');
-INSERT INTO pyd_Personas VALUES (12345719,'C.C','Mauricio','Elías','Roa','Guerrero','mauricioroa@mail.com');
-INSERT INTO pyd_Personas VALUES (12345720,'C.C','Viviana','Cristina','Campos','Díaz','vivianacampos@mail.com');
-INSERT INTO pyd_Personas VALUES (12345721,'C.C','Santiago','Alejandro','Álvarez','Correa','santiagoalvarez@mail.com');
-INSERT INTO pyd_Personas VALUES (12345722,'C.C','Valentina','Natalia','Prieto','Tejada','valentinaprieto@mail.com');
-
--- ==========================
--- 2) pyd_Doctores (3 doctores)
--- Id_Doctor 112..114
--- Personas: 12345714..12345716
--- ==========================
-INSERT INTO pyd_Doctores VALUES (112, 'Neurología', 'Neurología', 4, 12345714);
-INSERT INTO pyd_Doctores VALUES (113, 'Dermatología', 'Dermatología', 2, 12345715);
-INSERT INTO pyd_Doctores VALUES (114, 'Oncología', 'Oncología', 3, 12345716);
-
--- ==========================
--- 3) pyd_Enfermeras (3 enfermeras)
--- Id_Enfermera 212..214
--- Personas: 12345717..12345719
--- ==========================
-INSERT INTO pyd_Enfermeras VALUES (212, 2, 'Urgencias', 1, 12345717);
-INSERT INTO pyd_Enfermeras VALUES (213, 5, 'Geriatría', 2, 12345718);
-INSERT INTO pyd_Enfermeras VALUES (214, 3, 'Pediatría', 4, 12345719);
-
--- ==========================
--- 4) pyd_Pacientes (3 pacientes)
--- Id_Paciente 3017..3019
--- Personas: 12345720..12345722
--- ==========================
-INSERT INTO pyd_Pacientes VALUES (3017, 1, 'Nueva EPS', 12345720);
-INSERT INTO pyd_Pacientes VALUES (3018, 2, 'Famisanar', 12345721);
-INSERT INTO pyd_Pacientes VALUES (3019, 3, 'Coomeva', 12345722);
-
--- ==========================
--- 5) pyd_HistoriasClinicas (Id_Historia = Id_Paciente)
--- ==========================
-INSERT INTO pyd_HistoriasClinicas VALUES (3017, 'Nueva EPS', 'EPS Nueva');
-INSERT INTO pyd_HistoriasClinicas VALUES (3018, 'Famisanar', 'EPS Famisanar');
-INSERT INTO pyd_HistoriasClinicas VALUES (3019, 'Coomeva', 'EPS Coomeva');
-
--- ==========================
--- 6) pyd_Visitas (3 visitas nuevas)
--- Id_Visita 5020..5022
--- ==========================
-INSERT INTO pyd_Visitas VALUES (5020, SYSDATE - 5, 'Dolor abdominal', 'Ecografía abdominal', 'Gastritis', 'Omeprazol 20mg', 3017);
-INSERT INTO pyd_Visitas VALUES (5021, SYSDATE - 2, 'Cefalea intensa', 'TAC cerebral', 'Migraña', 'Analgesia y reposo', 3018);
-INSERT INTO pyd_Visitas VALUES (5022, SYSDATE - 1, 'Dolor en rodilla', 'Radiografía de rodilla', 'Tendinitis', 'Antiinflamatorios', 3019);
-
--- ==========================
--- 7) pyd_Cuartos (5 cuartos)
--- N_Cuarto 127..131
--- ocupante = Numero_doc si Estado = 'Ocupado'
--- ==========================
-INSERT INTO pyd_Cuartos VALUES (127, 'Disponible', 'Individual', NULL);
-INSERT INTO pyd_Cuartos VALUES (128, 'Ocupado', 'Suit', 12345720);
-INSERT INTO pyd_Cuartos VALUES (129, 'Disponible', 'Individual', NULL);
-INSERT INTO pyd_Cuartos VALUES (130, 'Ocupado', 'Suit', 12345721);
-INSERT INTO pyd_Cuartos VALUES (131, 'Ocupado', 'Individual', 12345722);
-
--- ==========================
--- 8) pyd_Citas (5 citas)
--- Id_Cita 7026..7030
--- Id_Paciente = Numero_doc del paciente
--- ==========================
-INSERT INTO pyd_Citas VALUES (7026, 12345720, SYSDATE + 0.20, SYSDATE + 2, 112, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7027, 12345721, SYSDATE + 0.40, SYSDATE + 3, 113, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7028, 12345722, SYSDATE + 0.60, SYSDATE + 4, 114, NULL, 'Realizada');
-INSERT INTO pyd_Citas VALUES (7029, 12345720, SYSDATE + 0.10, SYSDATE + 5, 112, NULL, 'Pendiente');
-INSERT INTO pyd_Citas VALUES (7030, 12345721, SYSDATE + 0.70, SYSDATE + 6, 113, NULL, 'Pendiente');
-
--- ==========================
--- 9) pyd_PQRS (5 PQRS)
--- Id_PQR 8026..8030
--- ==========================
-INSERT INTO pyd_PQRS VALUES (8026, 'Retraso en asignación de citas', 'Citas', 'Paciente solicita agilización de asignación');
-INSERT INTO pyd_PQRS VALUES (8027, 'Inconformidad con la comida', 'Servicios', 'Paciente reporta mala calidad de alimentos');
-INSERT INTO pyd_PQRS VALUES (8028, 'Problemas con la factura', 'Administrativo', 'Paciente pide revisión del cobro');
-INSERT INTO pyd_PQRS VALUES (8029, 'Habitación fría', 'Infraestructura', 'Paciente solicita revisión del aire acondicionado');
-INSERT INTO pyd_PQRS VALUES (8030, 'Atención tardía', 'Urgencias', 'Paciente reporta espera prolongada');
