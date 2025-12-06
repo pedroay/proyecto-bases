@@ -27,7 +27,6 @@ CREATE OR REPLACE PACKAGE BODY PKG_PERSONAS AS
             p_numero_doc, p_tipo_documento, p_primer_nombre, p_segundo_nombre, 
             p_primer_apellido, p_segundo_apellido, p_correo_electronico
         );
-        -- COMMIT; -- (Opcional, depende de tu estrategia de transacciones)
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             RAISE_APPLICATION_ERROR(-20001, 'Error: Ya existe una persona con el mismo documento o correo.');
@@ -125,7 +124,6 @@ CREATE OR REPLACE PACKAGE BODY PKG_PERSONAS AS
         ) VALUES (
             v_id_doctor, p_especialidad, p_area_especialidad, p_t_turno, p_numero_doc
         );
-        -- NOTA: El trigger trg_check_doctor_area se ejecuta aquí.
     EXCEPTION
         WHEN NO_DATA_FOUND THEN
             RAISE_APPLICATION_ERROR(-20010, 'Error: El Numero_Doc no existe en pyd_Personas o el Area_Especialidad no existe.');

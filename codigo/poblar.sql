@@ -1,4 +1,4 @@
--insert into pyd_Personas (Numero_doc, Tipo_documento, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, correo_electronico) values (10000000, 'C.C', 'Meade', 'Lily', 'Melloy', 'Swettenham', 'lswettenham0@so-net.ne.jp');
+insert into pyd_Personas (Numero_doc, Tipo_documento, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, correo_electronico) values (10000000, 'C.C', 'Meade', 'Lily', 'Melloy', 'Swettenham', 'lswettenham0@so-net.ne.jp');
 insert into pyd_Personas (Numero_doc, Tipo_documento, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, correo_electronico) values (10000001, 'C.C', 'Slade', 'Barde', 'Kezar', 'Greenin', 'bgreenin1@pcworld.com');
 insert into pyd_Personas (Numero_doc, Tipo_documento, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, correo_electronico) values (10000002, 'C.C', 'Franny', 'Cary', 'Januszewicz', 'Pasfield', 'cpasfield2@freewebs.com');
 insert into pyd_Personas (Numero_doc, Tipo_documento, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, correo_electronico) values (10000003, 'C.C', 'Ceil', 'Adelina', 'Stoneham', 'Crannis', 'acrannis3@irs.gov');
