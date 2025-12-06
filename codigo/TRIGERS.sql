@@ -31,17 +31,31 @@ CREATE OR REPLACE TRIGGER trg_check_doctor_area
 BEFORE INSERT OR UPDATE OF Area_Especialidad, Especialidad ON pyd_Doctores
 FOR EACH ROW
 DECLARE
-    v_especialidad_area VARCHAR2(100);
+    v_especialidad_area PYD_Areas.especialidad%TYPE; -- Usar %TYPE para el tipo de dato
 BEGIN
     IF :NEW.Area_Especialidad IS NOT NULL THEN
-        -- Obtener la especialidad de la Área a la que se está asignando
-        SELECT especialidad INTO v_especialidad_area
-        FROM pyd_Areas -- Tabla actualizada
-        WHERE Area = :NEW.Area_Especialidad;
+        -- Intentar obtener la especialidad del área
+        BEGIN
+            SELECT especialidad INTO v_especialidad_area
+            FROM pyd_Areas 
+            WHERE Area = :NEW.Area_Especialidad;
 
-        IF :NEW.Especialidad != v_especialidad_area THEN
-            RAISE_APPLICATION_ERROR(-20001, 'La especialidad del doctor (' || :NEW.Especialidad || ') no coincide con el área (' || v_especialidad_area || ') asignada.');
-        END IF;
+            -- Si la tupla se encuentra, realizar la comparación
+            IF :NEW.Especialidad != v_especialidad_area THEN
+                RAISE_APPLICATION_ERROR(-20001, 'La especialidad del doctor (' || :NEW.Especialidad || ') no coincide con el área (' || v_especialidad_area || ') asignada.');
+            END IF;
+
+        EXCEPTION
+            -- Manejar la excepción si el Área no existe en PYD_AREAS
+            WHEN NO_DATA_FOUND THEN
+                -- Si hay una FK activa (FK_DOCTOR_AREA), esta línea es redundante, 
+                -- pero útil si la FK se desactiva. Si la FK está activa, el INSERT fallará después del trigger.
+                -- Si quieres que el trigger falle explícitamente:
+                RAISE_APPLICATION_ERROR(-20002, 'El Área_Especialidad (' || :NEW.Area_Especialidad || ') asignada al doctor no existe en la tabla pyd_Areas.');
+            WHEN OTHERS THEN
+                -- Manejar cualquier otro error
+                RAISE_APPLICATION_ERROR(-20003, 'Error inesperado en trigger de doctor: ' || SQLERRM);
+        END;
     END IF;
 END;
 /

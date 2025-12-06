@@ -8,10 +8,11 @@ JOIN pyd_Doctores DOC ON C.Id_Doctor = DOC.Id_Doctor
 JOIN pyd_Personas D ON DOC.Numero_Doc = D.Numero_doc -- Persona del Doctor
 JOIN pyd_Personas P ON C.Id_Paciente = P.Numero_doc -- Persona del Paciente
 WHERE
-    DOC.Id_Doctor = 101 -- Reemplazar con el ID del Doctor deseado
+    DOC.Id_Doctor = 1013259701 -- Reemplazar con el ID del Doctor deseado
     AND C.Fecha_Cita BETWEEN DATE '2025-01-01' AND DATE '2025-03-31' -- Reemplazar con el rango de fechas
 ORDER BY
     C.Fecha_Cita DESC;
+
 
     SELECT
     CU.N_Cuarto,
@@ -38,6 +39,6 @@ JOIN pyd_Personas P ON PA.Numero_Doc = P.Numero_doc
 JOIN pyd_HistoriasClinicas HC ON PA.Id_Historia = HC.Id_Historia -- Nota: Asegúrate de que esta columna exista en pyd_Pacientes
 JOIN pyd_Visitas V ON HC.Id_Historia = V.Id_Historia
 WHERE
-    P.Numero_doc = 12345678 -- Reemplazar con el Número de Documento del Paciente
+    P.Numero_doc = 10000422 -- Reemplazar con el Número de Documento del Paciente
 ORDER BY
     V.Fecha DESC;
