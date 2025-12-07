@@ -49,7 +49,8 @@ CREATE TABLE pyd_Pacientes (
 CREATE TABLE pyd_HistoriasClinicas (
     Id_Historia NUMBER NOT NULL,
     Eps VARCHAR2(100) ,
-    Nombre_Eps VARCHAR2(100) 
+    Nombre_Eps VARCHAR2(100),
+    id_paciente
 );
 
 CREATE TABLE pyd_Visitas (

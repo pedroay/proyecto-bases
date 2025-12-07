@@ -1,0 +1,3 @@
+DROP TRIGGER trg_actualizar_estado_cuarto;
+DROP TRIGGER trg_actualizar_estado_cita;
+DROP TRIGGER trg_check_doctor_area;

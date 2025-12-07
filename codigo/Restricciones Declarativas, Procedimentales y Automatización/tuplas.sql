@@ -1,0 +1,7 @@
+ALTER TABLE pyd_Visitas ADD CONSTRAINT CHK_SINTOMAS_DIAGNOSTICO CHECK (
+    (Sintomas IS NOT NULL AND Diagnostico IS NOT NULL) OR (Sintomas IS NULL AND Diagnostico IS NULL)
+);
+
+ALTER TABLE pyd_Turnos ADD CONSTRAINT CHK_INICIA_ACABA CHECK (
+    Inicia < Acaba
+);
