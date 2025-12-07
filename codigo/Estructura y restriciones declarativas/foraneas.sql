@@ -40,8 +40,8 @@
     FOREIGN KEY (Turno) REFERENCES pyd_Turnos (Tipo_Turno)
     on delete set null;
 
-    ALTER TABLE pyd_Pacientes ADD CONSTRAINT FK_PACIENTE_HISTORIA
-    FOREIGN KEY (Id_paciente) REFERENCES pyd_HistoriasClinicas (Id_Historia);
+    ALTER TABLE pyd_HistoriasClinicas  ADD CONSTRAINT FK_PACIENTE_HISTORIA
+    FOREIGN KEY (Id_paciente) REFERENCES pyd_Pacientes (Id_Paciente);
 
     ALTER TABLE pyd_Visitas ADD CONSTRAINT FK_VISITA_HISTORIA
     FOREIGN KEY (Id_Historia) REFERENCES pyd_HistoriasClinicas (Id_Historia)
@@ -54,3 +54,6 @@
     ALTER TABLE pyd_Citas ADD CONSTRAINT FK_CITA_DOCTOR
     FOREIGN KEY (Id_Doctor) REFERENCES pyd_Doctores (Id_Doctor)
     ON DELETE CASCADE;
+
+    ALTER TABLE pyd_Cuartos ADD CONSTRAINT FK_CUARTOS_AREA
+    FOREIGN KEY (Area) REFERENCES pyd_Areas(Area)

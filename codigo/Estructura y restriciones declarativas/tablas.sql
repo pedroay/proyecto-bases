@@ -12,7 +12,8 @@ CREATE TABLE pyd_Cuartos (
     N_Cuarto NUMBER NOT NULL,
     Estado VARCHAR2(50) NOT NULL,
     Tipo_Cuarto VARCHAR2(50) NOT NULL,
-    ocupante NUMBER
+    ocupante NUMBER,
+    Area VARCHAR2(100) not NULL
 );
 
 CREATE TABLE pyd_Areas (
@@ -50,7 +51,7 @@ CREATE TABLE pyd_HistoriasClinicas (
     Id_Historia NUMBER NOT NULL,
     Eps VARCHAR2(100) ,
     Nombre_Eps VARCHAR2(100),
-    id_paciente
+    id_paciente NUMBER NOT NULL
 );
 
 CREATE TABLE pyd_Visitas (
