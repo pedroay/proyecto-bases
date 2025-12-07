@@ -1,8 +1,17 @@
 -- CONFIGURACIÓN INICIAL (Necesario para los ejemplos)
 -- Se requiere una tupla base en pyd_Areas y pyd_Turnos
-INSERT INTO pyd_Areas (Area, especialidad, camas) VALUES ('Cardiología', 'Cardiología', 20);
-INSERT INTO pyd_Areas (Area, especialidad, camas) VALUES ('Pediatría', 'Pediatría General', 15);
-INSERT INTO pyd_Turnos (Tipo_Turno, Nombre_Turno, Inicia, Acaba) VALUES (1, 'Diurno', DATE '2025-01-01', DATE '2025-01-01' + 0.5);
+BEGIN
+    INSERT INTO pyd_Areas (Area, especialidad, camas) VALUES ('Cardiología', 'Cardiología', 20);
+EXCEPTION WHEN DUP_VAL_ON_INDEX THEN NULL; END;
+/
+BEGIN
+    INSERT INTO pyd_Areas (Area, especialidad, camas) VALUES ('Pediatría', 'Pediatría General', 15);
+EXCEPTION WHEN DUP_VAL_ON_INDEX THEN NULL; END;
+/
+BEGIN
+    INSERT INTO pyd_Turnos (Tipo_Turno, Nombre_Turno, Inicia, Acaba) VALUES (1, 'Diurno', DATE '2025-01-01', DATE '2025-01-01' + 0.5);
+EXCEPTION WHEN DUP_VAL_ON_INDEX THEN NULL; END;
+/
 COMMIT;
 
 DECLARE

@@ -20,20 +20,38 @@ BEGIN
       SELECT Id_Doctor INTO v_doctor_id FROM pyd_Doctores WHERE Id_Doctor = 1013259701;
     EXCEPTION
       WHEN NO_DATA_FOUND THEN
-        DBMS_OUTPUT.PUT_LINE('Advertencia: Doctor 1013259701 no encontrado. Insertando datos base (asumiendo que Doc 101010101 existe en Personas).');
-        -- Insertar Área Cardiología
-        INSERT INTO pyd_Areas (Area, especialidad, camas) VALUES ('Cardiología', 'Cardiología', 10);
-        INSERT INTO pyd_Personas (Numero_doc, Tipo_documento, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, correo_electronico) 
-        VALUES (1013259701, 'CC', 'Juan', 'Pérez', 'García', NULL, 'juanDoctor.perez@example.com');
-        INSERT INTO pyd_Doctores (Id_Doctor, Especialidad, Area_Especialidad, Numero_Doc)
-        VALUES (1013259701, 'Cardiología', 'Cardiología', 1013259701); 
+        DBMS_OUTPUT.PUT_LINE('Advertencia: Doctor 1013259701 no encontrado. Insertando datos base.');
+        
+        BEGIN
+            INSERT INTO pyd_Areas (Area, especialidad, camas) VALUES ('Cardiología', 'Cardiología', 10);
+        EXCEPTION WHEN DUP_VAL_ON_INDEX THEN NULL; END;
+
+        BEGIN
+            INSERT INTO pyd_Personas (Numero_doc, Tipo_documento, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, correo_electronico) 
+            VALUES (1013259701, 'CC', 'Juan', 'Pérez', 'García', NULL, 'juanDoctor.perez@example.com');
+        EXCEPTION WHEN DUP_VAL_ON_INDEX THEN NULL; END;
+
+        BEGIN
+            INSERT INTO pyd_Doctores (Id_Doctor, Especialidad, Area_Especialidad, Numero_Doc)
+            VALUES (1013259701, 'Cardiología', 'Cardiología', 1013259701); 
+        EXCEPTION WHEN DUP_VAL_ON_INDEX THEN NULL; END;
+        
         v_doctor_id := 1013259701;
 
         -- Insertar Paciente 1 e Historia 1 (Si no existen)
-        INSERT INTO pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) VALUES (1013259703, 'SURA', 'SURA EPS');
-        INSERT INTO pyd_Personas (Numero_doc, Tipo_documento, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, correo_electronico) 
-        VALUES (1013259703, 'CC', 'Juan', 'Pérez', 'García', NULL, 'juan.perez@example.com');
-        INSERT INTO pyd_Pacientes (Id_Paciente, Id_Eps, Eps, Numero_Doc) VALUES (1013259703, 12345, 'SURA', 1013259703);
+        BEGIN
+            INSERT INTO pyd_HistoriasClinicas (Id_Historia, Eps, Nombre_Eps) VALUES (1013259703, 'SURA', 'SURA EPS');
+        EXCEPTION WHEN DUP_VAL_ON_INDEX THEN NULL; END;
+
+        BEGIN
+            INSERT INTO pyd_Personas (Numero_doc, Tipo_documento, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, correo_electronico) 
+            VALUES (1013259703, 'CC', 'Juan', 'Pérez', 'García', NULL, 'juan.perez@example.com');
+        EXCEPTION WHEN DUP_VAL_ON_INDEX THEN NULL; END;
+
+        BEGIN
+            INSERT INTO pyd_Pacientes (Id_Paciente, Id_Eps, Eps, Numero_Doc) VALUES (1013259703, 12345, 'SURA', 1013259703);
+        EXCEPTION WHEN DUP_VAL_ON_INDEX THEN NULL; END;
+        
         v_paciente_id := 1013259703;
         v_historia_id := 1013259703;
     END;
