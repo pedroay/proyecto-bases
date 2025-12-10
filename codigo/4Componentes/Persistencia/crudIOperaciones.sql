@@ -1,4 +1,4 @@
--- Archivo: crudOperacionesI.sql
+
 
 CREATE OR REPLACE PACKAGE BODY PKG_OPERACIONES_CLINICAS AS
 

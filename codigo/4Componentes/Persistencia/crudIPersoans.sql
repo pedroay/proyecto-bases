@@ -1,9 +1,3 @@
--- Archivo: crudPersonasI.sql (ACTUALIZADO)
--- Asumiendo la existencia de las secuencias:
--- CREATE SEQUENCE SEQ_DOCTOR_ID START WITH 1 INCREMENT BY 1;
--- CREATE SEQUENCE SEQ_ENFERMERA_ID START WITH 1 INCREMENT BY 1;
--- CREATE SEQUENCE SEQ_PACIENTE_ID START WITH 1 INCREMENT BY 1;
-
 CREATE OR REPLACE PACKAGE BODY PKG_PERSONAS AS
     
     -----------------------------------------------------
